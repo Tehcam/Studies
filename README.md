@@ -6,6 +6,7 @@ Here are the whole projects I made during my studies at Université de Reims Cha
 All of us are sorted by years, then by types, and by subject.
 
 ## License
-
+[Click here](https://github.com/Tehcam/Studies/LICENSE)
 
 ## See also
+[My web site](https://tehcam.github.io)
