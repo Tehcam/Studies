@@ -1,0 +1,205 @@
+:root{                  /*EXO 7 */
+    font-size:70%;     /*EXO 7 */
+    --duree:1s;          /*EXO8 */
+    --colorBoite:#6990CC; /*TP 002*/
+    --colorFond:#666666; /*TP 002*/
+}                      /*EXO 7 */
+
+#container > *  {
+	border: 2px solid #415778;
+	background-color: var(--colorBoite);
+	border-radius: 4px;
+	margin: 10px;
+	padding : 10px;
+	color:white;
+	font-family: "MS Sans Serif";
+}
+#header {
+    grid-area: header;
+    display : flex; 
+    animation-name: fromtop;    /*EXO 8 */
+    /* EXO 8 animation-duration: 2s */
+    position:relative ;          /*EXO 8 */
+}
+#content {
+    grid-area: content;
+    opacity:0;
+    animation-name: fondu;    /*EXO 8 */
+    animation-delay:var(--duree);         /* EXO 8 */
+    /* EXO 8 animation-duration: 2s */
+    animation-fill-mode: forwards; /* EXO 8 */
+}
+#nav {
+    grid-area: nav;
+    animation-name: fromleft;    /*EXO 8 */
+    /* EXO 8 animation-duration: 2s */
+}
+#footer {
+    grid-area: footer;
+    animation-name: frombottom;    /*EXO 8 */
+    /* EXO 8 animation-duration: 2s */
+    position:relative           /*EXO 8 */
+}
+#pub {
+	grid-area: pub;
+    display:none;           /*EXO 7 */
+    animation-name: fromright;    /*EXO 8 */
+    /* EXO 8 animation-duration: 2s */
+    position:relative  ;         /*EXO 8 */
+}
+
+#container {
+    max-width: 1200px;
+    margin:auto;       
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: /*EXO 7 */
+	"header"  
+	"nav" 
+    "content"
+    "footer"
+}
+
+h1{
+    flex : 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2.5rem;        /*EXO 7 */
+    font-family: maPolice;
+}
+
+@font-face{
+    font-family : maPolice;
+    src: url('../assets/Play With Fire.ttf')
+}
+
+
+nav ul {
+    display:flex;                   /*EXO 7 */
+    justify-content: space-around;  /*EXO 7 */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+.sousmenu{
+    display:none;
+}
+li:hover .sousmenu{
+    position:absolute;  
+    display:block;      /* EXO 7 */
+    padding-top:5px;    /* EXO 7 */
+}
+
+/* EXO 6 */
+body{
+    background-color: var(--colorFond);
+}
+table, th, td{
+    border:dashed 3px white;
+    padding:5px;
+    border-collapse: collapse;
+    text-align: center;
+    margin:auto;
+}
+th{
+    border:solid;
+}
+tr:nth-child(2n)
+{
+    background-color: #415778;
+}
+tr:nth-child(2n+3)
+{
+    background-color: #8998AF;
+}
+
+/* EXO 7 */
+
+@media (min-width: 1000px) {
+    #pub{
+        display:block;
+    }
+  #container {
+    grid-template-columns: 150px 8fr 2fr;
+    grid-template-areas: 
+	"header header header"  
+	"nav    content pub" 
+	"footer footer footer";
+        
+   }
+   nav ul {
+        flex-direction: column;
+    }
+    li:hover .sousmenu{
+        margin-left:10px;
+        padding-top:0px;
+        display:inline;
+    }
+    :root{
+        font-size:100%;
+    }
+    
+    #container > *{
+        font-size:1rem;
+    }
+}
+
+/*EXO 8*/
+@keyframes fromtop {
+  from {top:-1000px;}
+  to {top:0px;}
+}
+@keyframes fromright {
+  from {right:-1000px;}
+  to {right:0px;}
+}
+@keyframes frombottom {
+  from {bottom:-1000px;}
+  to {bottom:0px;}
+}
+@keyframes fromleft {
+  from {position:relative; left:-1000px;}
+  to {position:relative; left:0px;}
+}
+@keyframes fondu {
+  from {opacity : 0}
+  to {opacity : 1}
+}
+
+.animationDepart{
+    animation-duration: var(--duree);
+}
+
+/* EXO 9 */
+section {
+    margin-bottom:20px;
+}
+section img{
+    width:200px;
+    height:200px;
+    transform:translateY(150px);
+    transition: all 0.5s linear;
+}
+section div{
+    border:solid 2px;
+    border-radius:100px;
+    border-color:var(--color);
+    overflow: hidden;
+}
+div:hover > img {
+    transform:translateY(0);
+}
+
+/*TP 002*/
+#theme{
+    position:fixed;
+    top:10px;
+    right:10px;
+    height:30px;
+    width:70px;
+}

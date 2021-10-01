@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="521.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pack.Controller">
+   <center>
+      <GridPane gridLinesVisible="true" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fx:id="img1" fitHeight="102.0" fitWidth="142.0" onMouseClicked="#flip1" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <ImageView fx:id="img2" fitHeight="104.0" fitWidth="142.0" onMouseClicked="#flip2" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <ImageView fx:id="img3" fitHeight="103.0" fitWidth="141.0" onMouseClicked="#flip3" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <ImageView fx:id="img4" fitHeight="101.0" fitWidth="141.0" onMouseClicked="#flip4" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <ImageView fx:id="img5" fitHeight="103.0" fitWidth="141.0" onMouseClicked="#flip5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <ImageView fx:id="img6" fitHeight="102.0" fitWidth="142.0" onMouseClicked="#flip6" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <ImageView fx:id="img7" fitHeight="101.0" fitWidth="141.0" onMouseClicked="#flip7" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <ImageView fx:id="img8" fitHeight="102.0" fitWidth="142.0" onMouseClicked="#flip8" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <ImageView fx:id="img9" fitHeight="102.0" fitWidth="141.0" onMouseClicked="#flip9" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+   </center>
+   <top>
+      <Label fx:id="state" alignment="CENTER" prefHeight="55.0" prefWidth="632.0" text="Tour de Joueur 1" textAlignment="CENTER" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <Label alignment="CENTER" prefHeight="306.0" prefWidth="87.0" text="Joueur 1" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <Label alignment="CENTER" prefHeight="306.0" prefWidth="92.0" text="Joueur 2" BorderPane.alignment="CENTER" />
+   </right>
+   <bottom>
+      <Button fx:id="reset" mnemonicParsing="false" onAction="#newGame" prefHeight="39.0" prefWidth="600.0" text="Reset" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

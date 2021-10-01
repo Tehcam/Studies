@@ -1,0 +1,98 @@
+/* Conditions générale par défaut de "mini_jeu.html" */
+
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: unset;
+}
+
+header{
+	text-align: center;
+}
+
+h1{
+	margin-top: unset;
+	padding-top: 1em;
+}
+
+section{
+	width: 50%;
+	height: 50%;
+	margin-left: 25%;
+}
+
+footer{
+	text-align: center;
+	padding-top: 25px;
+	font-size: 20px;
+}
+
+#p_color{
+	text-decoration: underline;
+	margin-bottom: 0px;
+}
+
+.span{
+	width: 70px;
+	height: 70px;
+	background-color: grey;
+	display: inline-block;
+}
+
+#prop{
+	width: 100%;
+	height: 65%;
+}
+
+#case{
+	height: 35%;
+	text-align: center;
+}
+
+#p_awn{
+	margin: 0px;
+	display: inline;
+	font-size: 30px;
+}
+
+#awn{
+	border: grey;
+	background-color: grey;
+	padding: 10px;
+	width: 70px;
+	height: 70px;
+	font-size: 70px;
+	display: inline-block;
+}
+
+#a0{
+	position: relative;
+	top: 30%;
+	left: 7%;
+}
+
+#a1{
+	position: relative;
+	top: 30%;
+	left: 12%;
+}
+
+#a2{
+	position: relative;
+	top: 30%;
+	left: 17%;
+}
+
+#a3{
+	position: relative;
+	top: 30%;
+	left: 22%;
+}
+
+.span:hover{
+	cursor: move;
+}
+
+#case:hover{
+	cursor: default;
+}

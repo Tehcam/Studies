@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+	<title>BinToDec</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Corentin">
+	<meta name="description" content="algorithme de conversion du binaire au decimal">
+	<style type="text/css">
+		html, body{
+			width: 100%;
+			height: 100%;
+			margin: unset;
+			text-align: center;
+		}
+		h1{
+			padding: 2em;
+		}
+		#binaire{
+			padding: 1em;
+		}
+		span:hover{
+			cursor: pointer;
+			text-decoration: underline;
+		}
+		#error{
+			font-size: 40px;
+			color: red;
+			margin: unset;
+		}
+		label{
+			padding: 8px;
+			font-family: Comic Sans MS;
+			background-color: lightgrey;
+			border-radius: 35px;
+		}
+		label:hover{
+			cursor: pointer;
+			background-color: grey;
+		}
+	</style>
+</head>
+<body>
+	<h1>
+		Algo binaire vers décimale !
+	</h1>
+	<h2>
+		Entrer un nombre en binaire. Cliquer sur "résultat". <br>
+		Le résultat en décimale s'affichera en dessous.
+	</h2>
+	<h4>
+		Si un message d'erreur s'affiche, <br>c'est simplement parce que vous n'avez pas entré un nombre en binaire.<br>
+		<br>Merci de reset à <u>chaque nouvelle tentative</u> (sinon le résultat sera erroné) !
+	</h4>
+	<input type="text" name="binaire" id="binaire">
+	<label for="binaire">X</label>
+	<br><br>
+	<p><span>Résultat: </span><strong></strong></p>
+	<p id="error"></p>
+	<br>
+	<input type="button" name="reset" value="reset" id="reset">
+	<br><br><br>
+	<footer>
+		Cette page a été réalisé par Corentin.M<br>
+		<a href="decimal_vers_binaire.html">Vous voulez convertir du décimale en binaire ?</a>
+	</footer>
+	<script type="text/javascript" src="BinToDec.js"></script>
+</body>
+</html>

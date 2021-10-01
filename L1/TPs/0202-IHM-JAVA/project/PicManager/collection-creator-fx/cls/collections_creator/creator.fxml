@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="globalPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="362.0" prefWidth="492.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="collections_creator.Controller">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#fetch" text="Fetch Edits" />
+                  <MenuItem mnemonicParsing="false" onAction="#push" text="Push Edits" />
+              <MenuItem mnemonicParsing="false" onAction="#close" text="Close" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Collection">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#createNewCollection" text="New" />
+               </items></Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="45.0" prefWidth="492.0">
+               <children>
+                  <TextField fx:id="searchInputText" prefHeight="44.0" prefWidth="445.0" promptText="Search" />
+                  <Button mnemonicParsing="false" onAction="#search" prefHeight="33.0" prefWidth="49.0" text="OK" />
+               </children>
+            </HBox>
+            <SplitPane fx:id="listViewContainer" prefHeight="257.0" prefWidth="492.0" />
+            <Pane prefHeight="86.0" prefWidth="492.0">
+               <children>
+                  <Button fx:id="open" layoutX="152.0" layoutY="10.0" mnemonicParsing="false" onAction="#onOpen" prefHeight="42.0" prefWidth="189.0" text="Open Picture in Viewer" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </center>
+   <bottom>
+      <Label fx:id="mylabel" prefHeight="0.0" prefWidth="513.0" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

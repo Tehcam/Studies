@@ -1,0 +1,19 @@
+{
+	"folders":
+	[
+		{
+			"name": "Projet",
+			"path": ".",
+			"folder_exclude_patterns": ["css", "js", "content"],
+			"file_exclude_patterns": ["*.sublime-project", "*.sublime-workspace"]
+		},
+		{
+			"name": "css",
+			"path": "./css"
+		},
+		{
+			"name": "javascript",
+			"path": "./js"
+		}
+	]
+}

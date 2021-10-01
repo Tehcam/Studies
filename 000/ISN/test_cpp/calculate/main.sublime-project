@@ -1,0 +1,32 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"name": "Projet",
+			"path": ".",
+			"folder_exclude_patterns": ["bin", "obj", "content"],
+			"file_exclude_patterns": ["*.sublime-project", "*.sublime-workspace"]
+		},
+		{
+			"follow_symlinks": true,
+			"name": "bin",
+			"path": "./bin"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "obj",
+			"path": "./obj"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "content",
+			"path": "./content"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "header",
+			"path": "./header"			
+		}
+	]
+}

@@ -1,0 +1,380 @@
+:root
+{
+	font-size: 60%;
+	--bkcolor: rgb(30, 30, 45);
+	--sign-bkcolor: lightblue;
+	--title-color: white;
+	--shadow-color: black;
+	--margin-of-headers : 4rem;
+	--content-color: rgba(90, 90, 90, .7);
+	--before-display: initial;
+	--foot-color: rgba(255, 255, 255, .6);
+}
+
+/*GESTION DU FOND*/
+
+html, html:before
+{
+	height: 100vh;
+	width: 100vw;
+	font-family: "Verdana", sans-serif;
+	background: var(--bkcolor);
+}
+
+html, html:before, body
+{
+	margin: 0 5px 0 0;
+	padding: 0;
+}
+
+body
+{
+	height: 100%;
+	width: 100%;
+}
+
+html:before
+{
+	content: ' ';
+	display: var(--before-display);
+	background: radial-gradient(circle at var(--x) var(--y), transparent 5%, rgba(0, 0, 0, .5) 30%);
+	position: fixed;
+	z-index: -1;
+}
+
+/*ENTETE DE PAGE*/
+
+#menu
+{
+	position: absolute;
+	top: var(--margin-of-headers);
+	right: var(--margin-of-headers);
+	padding: 5px 5px 8px 5px;
+	transform: rotateZ(45deg);
+	border: solid 3px var(--title-color);
+	border-radius: 100%;
+	height: 3vw;
+	width: 3vw;
+	font-size: 3rem;
+	color: var(--title-color);
+	text-align: center;
+	text-shadow: none;
+	transition: color 350ms, background 350ms, box-shadow 350ms;
+}
+
+#menu:hover
+{
+	cursor: pointer;
+	color: var(--bkcolor);
+	background: var(--title-color);
+	box-shadow: 0 0 10px var(--title-color), 0 0 60px var(--title-color), 0 0 100px var(--title-color);
+}
+
+#menu:active
+{
+	color: var(--title-color);
+	background: var(--bkcolor);
+}
+
+/*MENU DE NAVIGATION*/
+
+#nav-bkg
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 98;
+	background: rgba(0, 0, 0, .2);
+}
+
+.flex.flex-nav
+{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 300px;
+	height: 100%;
+	z-index: 99;
+	background: gray;
+	box-shadow: -4px 0 8px black, -4px 0 15px black;
+	animation: 450ms fromRigth ease-out forwards;
+	flex-direction: column;
+}
+
+.flex.flex-nav a
+{
+	text-decoration: none;
+	color: rgba(0, 0, 0, .5);
+	font-size: 2rem;
+	width: 100%;
+	padding: 1rem 0 1rem 0;
+	text-align: center;
+}
+
+.flex.flex-nav a:hover
+{
+	cursor: pointer;
+	color: black;
+}
+
+/*CORPS DE PAGE*/
+
+section
+{
+	width: 100%;
+	height: 100%;
+}
+
+.bk-container
+{
+	height: 80vh;
+	width: 80vw;
+	margin: auto;
+	position: relative;
+	background: var(--bkcolor);
+	border: 1px solid var(--bkcolor);
+	border-radius: 25px;
+	box-shadow: 2px 2px 5px var(--shadow-color), 2px 2px 10px black, 2px 2px 20px var(--shadow-color);
+	overflow: hidden;
+	z-index: -1;
+}
+
+.bk-container:before
+{
+	content: ' ';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: radial-gradient(circle at 0px 0px, var(--sign-bkcolor) 25%, transparent 25%), radial-gradient(circle at 100% 100%, var(--sign-bkcolor) 10%, transparent 10%);
+	z-index: -1;
+}
+
+.flex.container
+{
+	position: absolute;
+	height: 70vh;
+	width: calc(80vw - 10vh);
+	padding: 5vh;
+	color: var(--title-color);
+	z-index: 0;
+}
+
+.flex.container > *
+{
+	flex: 1;
+	height: 90%;
+	padding: 0;
+	margin: 20px;
+}
+
+.flex.illustration-container
+{
+	display: none;
+}
+
+.flex.container fieldset
+{
+	border: transparent;
+	border-radius: 15px;
+	background: transparent;
+}
+
+.flex.container fieldset legend
+{
+	width: 4rem;
+	height: 4.4rem;
+	font-size: 3rem;
+	background: var(--sign-bkcolor);
+	border-radius: 100%;
+	color: rgba(150, 170, 230, 1);
+}
+
+h2
+{
+	font-size: 5rem;
+	text-align: center;
+	margin: 0;
+}
+
+h2 small
+{
+	font-size: 2rem;
+}
+
+.flex.signup
+{
+	flex-direction: column;
+	margin-top: 3rem;
+}
+
+.flex.signup label:not([for="check"])
+{
+	font-size: 2rem;
+}
+
+.flex.signup input[type="text"],
+.flex.signup input[type="password"]
+{
+	margin: 1rem 0 2rem 0;
+	outline: none;
+	border: 1px solid gray;
+	border-radius: 50px;
+	padding: 1rem;
+	width: 60%;
+}
+
+label[for="check"]
+{
+	margin: auto 0 auto 10px;
+}
+
+#submit
+{
+	background: rgb(0, 120, 225);
+	border: none;
+	border-radius: 50px;
+	padding: 1rem 1.5rem 1rem 1.5rem;
+	color: white;
+	outline: none;
+	margin: 1.5rem;
+	box-shadow: 0 1px 0 white;
+}
+
+#submit:hover
+{
+	cursor: pointer;
+}
+
+#submit:active
+{
+	box-shadow: none;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 800px) and (min-device-width: 800px)
+{
+	:root
+	{
+		font-size: 70%;
+	}
+
+	.bk-container
+	{
+		height: 60vh;
+		width: 60vw;
+	}
+
+	.flex.container
+	{
+		height: 50vh;
+		width: calc(60vw - 10vh);
+	}
+
+	h2
+	{
+		font-size: 3rem;
+	}
+
+	h2 small
+	{
+		font-size: 1rem;
+	}
+
+	.flex.signup
+	{
+		margin-top: 1.5rem;
+	}
+
+	.flex.signup label:not([for="check"])
+	{
+		font-size: 1.5rem;
+	}
+
+	.flex.signup input[type="text"],
+	.flex.signup input[type="password"]
+	{
+		margin: 0 0 1rem 0;
+		padding: 1rem;
+	}
+
+	#submit
+	{
+		margin: 1rem;
+	}
+
+}
+
+@media screen and (min-width: 1200px)
+{
+	@keyframes appear
+	{
+		from
+		{
+			opacity: 0;
+		}
+		to
+		{
+			opacity: 1;
+		}
+	}
+
+	:root
+	{
+		font-size: 80%;
+	}
+
+	.flex.illustration-container
+	{
+		display: flex;
+		flex-direction: column;
+		font-size: 2.5rem;
+		letter-spacing: 3px;
+		animation: 600ms appear linear forwards;
+	}
+
+	.flex.illustration-container img
+	{
+		width: 100%;
+		height: 70%;
+	}
+
+	.flex.container fieldset
+	{
+		background: rgba(150, 170, 230, .3);
+	}
+
+	h2
+	{
+		font-size: 2rem;
+	}
+
+	h2 small
+	{
+		font-size: 1rem;
+	}
+
+	.flex.signup
+	{
+		margin-top: 0.5rem;
+	}
+
+	.flex.signup label:not([for="check"])
+	{
+		font-size: 1rem;
+	}
+
+	.flex.signup input[type="text"],
+	.flex.signup input[type="password"]
+	{
+		margin: 0 0 1rem 0;
+		padding: 0.5rem;
+	}
+
+	#submit
+	{
+		margin: 1rem;
+	}
+}

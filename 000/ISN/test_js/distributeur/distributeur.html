@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+	<title>Distributeur</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Corentin.M">
+	<style type="text/css">
+		html, body{
+			width: 100%;
+			height: 100%;
+			text-align: center;
+		}
+		header{
+			color: red;
+		}
+		div{
+			width: 500px;
+			height: 250px;
+			border: solid black 1px;
+			overflow-y: scroll;
+		}
+		article{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Distributeur</h1>
+		<h3>Convertie une somme, multiple de 10, <br>en une combinaison de billet de 50, 20, 10eur</h3>
+	</header>
+	<section>
+		<!-- valeur d'entrée -->
+		<input type="text" name="variable" id="variable">
+		<input type="submit" name="submit" value="Entrer" id="entrer"><br><br>
+
+		<article>
+			<!-- la reponse ici -->
+			<div></div>
+		</article>
+		<br>
+		<br>
+		Pour recommencer, rafraichir la page svp<br>
+		2019-2020
+	</section>
+	<br>
+	Cet algorithme fonctionne très bien sauf pour le nombre 160 mdrrr
+
+	<script type="text/javascript" src="distributeur.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<title>Contenu du site</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Corentin MACHET">
+		<link rel="stylesheet" type="text/css" href="../css/commun-styles-sheet.css">
+		<link rel="stylesheet" type="text/css" href="../css/content.css">
+		<link rel="icon" type="img/ico" href="../media/img/icone.ico">
+	</head>
+	<body>
+		<!-- INFO POPUP -->
+		<div id="area" class="pre"></div>
+		<div id="info" class="flex pre">
+			<h2>Coucou</h2>
+			<h3>Eh non, ce ne sont pas les cookies !</h3>
+			<img src="../media/img/undraw_Faq_re_31cw.svg" width="40%">
+			<p>Simplement une p'tite info pour vous prévenir que vous vous trouvez sur une page de contenu. Comme son nom l'indique, c'est une page qui présente le contenu de mon site, et, par soucis de productivité, elle sera identique pour chaque contenu ! Inutile de copier des pages si seul le texte change, vous en conviendrez ;)</p>
+			<div class="flex">
+				<input type="checkbox" name="understood" id="understood">
+				<label for="understood">D'accord, j'ai compris !</label>
+			</div>
+			<button id="ok">OK</button>
+		</div>
+		<!-- ENTETE DE PAGE -->
+		<header class="flex flex-header">
+			<picture id="logo">
+				<img src="../media/img/urca.png" alt="logo-urca">
+			</picture>
+			<div id="titleContainer">
+				<h1 class="title">Les Métiers du Cinéma</h1>
+				<h2 class="title">Model de contenu</h2>
+				<small class="lil" style="--text-color:green;">modifier le 15/12/2020</small>
+			</div>
+			<!-- icon de menu -->
+			<div id="menu" class="flex" data-tooltip="Menu">&times;</div>
+		</header>
+		<!-- MENU DE NAVIGATION -->
+		<div id="nav-bkg" class="nav" style="display: none;"></div>
+		<nav class="flex flex-nav nav" style="display: none;">
+			<a href="../index.html"><span>Accueil</span></a>
+			<a href="#plan" onclick="showNav()"><span>Plan du site</span></a>
+			<a href="#" class="forbidden"><span data-tooltip="Fonctionnalité Indisponible">Se connecter</span></a>
+			<a href="signup.html"><span>S'inscrire</span></a>
+			<a href="#mentions" onclick="showNav()"><span>Mentions Légales</span></a>
+			<a href="commentaire.html"><span>Laisser un commentaire</span></a>
+			<a id="toggleTheme">Thème sombre : <span class="sombre oui">oui</span> / <span class="sombre non">non</span></a>
+		</nav>
+		<!-- DIAPORAMA -->
+		<hr style="margin: 10px 3rem;">
+		<section id="slide-container" class="flex">
+			<div class="flex slide">
+				<img src="../media/img/undraw_time_management_30iu.svg" alt="illustration from undraw">
+				<div class="slide-text">
+					<h4>Manque de temps ?</h4>
+					<p>Cette petite annonce n'est donc pas pour vous, désolé !<br> Ce petit diaporama est un exemple de ce que l'on peut faire avec des animations...<br> Lisez donc la suite et vous verrez.</p>
+				</div>
+			</div>
+			<div class="flex slide">
+				<img src="../media/img/undraw_candidate_ubwv.svg" alt="illustration from undraw">
+				<div class="slide-text">
+					<h4>Exprimez-vous !</h4>
+					<p>Vous lisez la suite finalement ? C'est très gentil de votre part. Vous savez pourtant que peu de gens prête attention à ce genre de slide, défilant sur (presque) toutes les pages des sites actuels...?<br> Passons à la page suivante alors et continuons de nous exprimer.</p>
+				</div>
+			</div>
+			<div class="flex slide">
+				<img src="../media/img/undraw_slider_5bgj.svg" alt="illustration from undraw">
+				<div class="slide-text">
+					<h4>Vous y êtes presque !</h4>
+					<p>Toujours en train de lire ces slides ? Ca me touche vraiment. La suivante sera la dernière, je vous l'assure... Elle vous donnera d'ailleurs un petit conseil.<br> Patience alors !</p>
+				</div>
+			</div>
+			<div class="flex slide">
+				<img src="../media/img/undraw_my_current_location_om7g.svg" alt="illustration from undraw">
+				<div class="slide-text">
+					<h4>Géolocalisation</h4>
+					<p>Eh oui ! une petite astuce pour finir en beauté. <br> Rendez-vous dans la rubrique "Plan du site". Vous constaterez que les TPs d'info0102 y sont disponibles ! Cliquez sur le TP003 et découvrez votre position ;)</p>
+				</div>
+			</div>
+		</section>
+		<hr style="margin: 10px 3rem;">
+		<!-- CORPS DE PAGE -->
+		<section>
+			<article class="main main-video">
+				<div class="flex article-title" data-main=1>
+					<h3>La présentation vidéo !</h3>
+					<span class="flex arrow" style="transform: rotateZ(90deg);">&gt;</span>
+				</div>
+				<div class="flex article-content" style="display:flex;" data-main=1>
+					<p>Pour commencer en douceur, je vous présente ici mon tout premier film : "View" ! Ce court-métrage a été réalisé il y a 3 ans au sein du lycée Clémenceau, dans le cadre de l'option CAV (cinéma audiovisuel). <br> Bon visionnage !</p>
+					<video style="outline: none;" controls poster="../media/img/view-capture.jpg">
+						<source src="../media/video/View.mp4" type="video/mp4">
+					</video>
+				</div>
+			</article>
+			<article class="main main-text">
+				<div class="flex article-title" data-main=2>
+					<h3>Quelques explications...</h3>
+					<span class="flex arrow" style="transform: rotateZ(90deg);">&gt;</span>
+				</div>
+				<div class="flex article-content" style="display:flex;" data-main=2>
+					<p>Le monde du cinéma est très vaste et ses métiers, multiples. Pour réaliser un film, même un court-métrage comme celui ci-dessus, il est impératif d'avoir une bonne équipe bien orchestrée !<br> Parmi les artistes principaux, se distingue le producteur (en charge de la gestion, du financement et du bon déroulé du film), le réalisateur (en charge de l'organisation, et de la réalisation du film), et les acteurs bien sûr !<br> Cependant, nombreux sont les autres métiers, souvent oubliés mais tout autant indispensables, pour la réalisation d'un film. Par exemple, le chef opérateur (chargé du découpage par plan et de l'équipe de tournage), l'ingénieur son, ou le script (qui vérifie la présence éventuelle de faux raccords) et j'en passe...!<br> Très important également, la prost-production ! A savoir, tous ceux qui montent, illustrent et mettent en musique le film. <br> Ci-dessous un exemple de musique de film :</p>
+					<audio style="outline: none;" controls>
+						<source src="../media/audio/requieme.mp3" type="audio/mp3">
+					</audio>
+					<p>Mais pour qu'un tournage se déroule bien, il faut aussi à tous ces artistes, un bon matériel ! La caméra évidemment, mais également micro, perche, tascam (boitier d'enregistrement audio) et dead cat (fourure synthétique, autrefois en poil de chat, pour protéger le micro) pour la prise de son. A tout cela s'ajoute les trépieds, les éclairages, etc. C'est tout une organisation !</p>
+					<p>Enfin, pour conclusion, voici un petit mot personnel :<br> J'ai eu l'heureuse occasion de participer trois ans à l'option CAV de Clémenceau, ce qui m'a particulièrement fasciné. J'ai ainsi réalisé trois films (un par an) et la suite est en préparation ! Je compte bien profiter de mon temps libre pour sortir, avec mes amis, de nouveaux films, plus perfectionné encore ;)<br> Merci d'avoir lu ma page !</p>
+				</div>
+			</article>
+			<article class="main main-drop">
+				<div class="flex article-title" data-main=3>
+					<h3>Un petit jeu pour la fin</h3>
+					<span class="flex arrow" style="transform: rotateZ(90deg);">&gt;</span>
+				</div>
+				<div class="flex article-content" style="display:flex;" data-main=3>
+					<p>Piochez et déposer les bonnes réponses dans les cases correspondantes !</p>
+					<div id="game">
+						<span class="game-box" draggable="true">View</span>
+						<span class="game-box" draggable="true">Le script</span>
+						<span class="game-box" draggable="true">Le dead cat</span>
+						<div class="flex game-container">
+							<div class="flex game-awnser">
+								<label for="q1">La personne chargé de vérifier les faux raccords :</label>
+								<input id="q1" type="text" value="" placeholder="Déposez ici" ondragover="allow(event);" readonly>
+							</div>
+							<div class="flex game-awnser">
+								<label for="q2">L'outil qui permet de protéger le micro du bruit nuisible :</label>
+								<input id="q2" type="text" value="" placeholder="Déposez ici" ondragover="allow(event);" readonly>
+							</div>
+							<div class="flex game-awnser">
+								<label for="q3">Mon tout premier court-métrage s'intitule :</label>
+								<input id="q3" type="text" value="" placeholder="Déposez ici" ondragover="allow(event);" readonly>
+							</div>
+						</div>
+						<button id="verif-game">Vérifier</button>
+					</div>
+				</div>
+			</article>
+		</section>
+		<!-- PIED DE PAGE -->
+		<footer class="flex flex-footer">
+			<div class="foot foot-about">
+				<h3>A propos de moi...</h3>
+				<p>
+					Etudiant en licence informatique, je me passionne pour ce domaine depuis mon arrivée au collège !<br>
+					C'est à présent l'occasion d'en apprendre davantage, d'autant que j'ai pu intégrer le CMI Info (cursus master en ingénieurie) de l'URCA. <br>
+					<br>
+					Bonne visite sur mon site !
+				</p>
+				<hr>
+				<p style="text-align: right; font-weight: bold;">
+					Corentin MACHET
+				</p>
+			</div>
+			<div class="foot foot-plan">
+				<h3 id="plan">Plan du site</h3>
+				<ul>
+					<li>
+						<h4><a href="../index.html">Accueil</a></h4>
+					</li>
+					<li>
+						<h4><a href="#" class="forbidden" data-tooltip="Fonctionnalité Indisponible">Se connecter</a></h4>
+					</li>
+					<li>
+						<h4><a href="signup.html">S'inscrire</a></h4>
+					</li>
+					<li>
+						<h4><a href="../bin/consignes/Projet (1).pdf" download>Télécharger les consignes</a></h4>
+					</li>
+					<li>
+						<h4>Mes TPs</h4>
+						<ol>
+							<li><a href="frame-tp001.html" target="_blank">TP001 </a></li>
+							<li><a href="frame-tp002.html" target="_blank">TP002 </a></li>
+							<li><a href="frame-tp003.html" target="_blank">TP003 </a></li>
+						</ol>					
+					</li>
+					<li>
+						<h4>Les Métiers du Ciné</h4>
+						<ol>
+							<li><a href="#">Conception</a></li>
+							<li><a href="#">Réalisation</a></li>
+							<li><a href="#">Acteurs</a></li>
+							<li><a href="#">Equipe Technique</a></li>
+							<li><a href="#">Montage</a></li>
+						</ol>					
+					</li>
+				</ul>
+			</div>
+			<div class="foot foot-mentions">
+				<h3 id="mentions">Mentions</h3>
+				<p>
+					Ce site est un travail à but pédagogique, proposé dans le cadre du module INFO0102 de l'URCA (Université de Reims Champagne-Ardenne).
+				</p>
+				<hr>
+				<p>
+					Merci de respecter ce travail.
+				</p>
+			</div>
+			<div class="foot foot-comment">
+				<h3>Laissez un commentaire !</h3>
+				<p>
+					Cliquez ci-dessous pour accéder à la page suivante. Un formulaire vous y attend pour me faire un retour quant à ce site !
+				</p>
+				<div class="comment-container">
+					ICI
+				</div>
+			</div>
+			<div id="copyright" data-tooltip="All Rights Reserved">Copyright - 2020</div>
+		</footer>
+		<!-- FIN DE PAGE -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/bkAnimation.js"></script>
+		<script type="text/javascript" src="../js/navAnimation.js"></script>
+		<script type="text/javascript" src="../js/content.js"></script>
+	</body>
+</html>

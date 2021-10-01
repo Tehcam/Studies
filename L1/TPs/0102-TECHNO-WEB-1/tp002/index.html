@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+    <body>
+		<div id="container">
+			<header id="header" class="animationDepart">
+                <!--Exo 4 -->
+                <img src="images/logo.png"/>
+                <h1 onclick="maFonction();" data-tooltip="titre">Mon premier site</h1>
+                <!--Fin exo 4 -->
+            </header>
+			<nav id="nav"  class="animationDepart">
+                <!--Exo 5-->
+                <ul>
+                    <li><a href="#">Menu 1</a>
+                        <ul class="sousmenu">
+                            <li><a href="#">Sous-menu 1</a></li>
+                            <li><a href="#">Sous-menu 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Menu 2</a>
+                        <ul class="sousmenu">
+                            <li><a href="#">Sous-menu 1</a></li>
+                            <li><a href="#">Sous-menu 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Menu 3</a>
+                        <ul class="sousmenu">
+                            <li><a href="#">Sous-menu 1</a></li>
+                            <li><a href="#">Sous-menu 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--Fin exo 5 -->
+			</nav>       
+			<article id="content"  class="animationDepart"> <!-- div accepté -->
+                <section><!-- Exo 9 -->
+                    <!-- Exo 6 -->
+                    <table>
+                        <tr>
+                            <th>Colonne 1</th>
+                            <th>Colonne 2</th>
+                            <th>Colonne 3</th>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>16</td>
+                            <td>85</td>
+                        </tr>
+                        <tr>
+                            <td>40</td>
+                            <td>54</td>
+                            <td>37</td>
+                        </tr>
+                        <tr>
+                            <td>84</td>
+                            <td>56</td>
+                            <td>94</td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td>46</td>
+                            <td>67</td>
+                        </tr>
+                    </table>
+                    <!-- Fin exo 6 -->
+                </section>
+                <!-- Exo 9 -->
+                <section style="display:flex;justify-content: space-around">
+                    <div class="card" style="--color:orange;" data-tooltip="html"><img src="images/html.webp"/></div>    
+                    <div class="card" style="--color:blue;" data-tooltip="css"><img src="images/css.svg"/></div>      
+                    <div class="card" style="--color:yellow;" data-tooltip="js"><img src="images/js.png"/></div>        
+                </section>
+                <!-- Fin exo 9 -->
+            </article>
+			<aside id="pub"  class="animationDepart">pub</aside>
+			<footer id="footer"  class="animationDepart">Le pied de page</footer>
+		</div>
+        <button id="theme">Toggle</button>
+        <!-- <script type="text/javascript" src="js/script.js"></script> -->
+    </body>
+</html>

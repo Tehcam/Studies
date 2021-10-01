@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1578225688 source:e:\terminale\isn\t7s\jeu_console\jeu_console.cpp
+	<iostream>
+	"E:\Terminale\ISN\T7S\jeu_console\jeu_console\functions.h"
+
+1578227160 e:\terminale\isn\t7s\jeu_console\jeu_console\functions.h
+	<iostream>
+	<sstream>
+	<string>
+	<typeinfo>
+
+1578161406 source:e:\terminale\isn\t7s\jeu_console\jeu_console\functions.h
+	<iostream>
+

@@ -1,0 +1,208 @@
+/*
+	MODE NUIT - STYLE PAR DEFAUT
+*/
+
+@media screen and (min-width: 964px) and (min-height: 600px){
+
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: unset;
+	font-family: Comic Sans MS;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	height: 160px;
+	background-image: linear-gradient(#424242, #2E2E2E);
+	color: #214579;
+	box-shadow: 0px 20px 30px rgba(40,40,40,1);
+}
+
+#header_content{
+	padding-top: 20px;
+	height: 150px;
+}
+
+#header_content div{
+	display: inline-block;
+	text-align: center;
+}
+
+#header_content img{
+	width: 25%;
+	height: 25%;
+}
+
+h1, h2{
+	margin: unset;
+	padding: 3px;
+}
+
+h2 span, #options{
+	font-size: 12px;
+}
+
+#options{
+	margin: unset;
+}
+
+#M{
+	font-size: 80px;
+}
+
+.head:hover{
+	cursor: pointer;
+}
+
+section{
+	background-color: #3C3F43B0;
+	padding-top: 40px;
+	min-height: 75%;
+	
+}
+
+article p{
+	margin: unset;
+	color: white;
+}
+
+#accueil{
+	width: 650px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 2em;
+	padding-top: 2em;
+	margin: 15px;
+	text-align: justify;
+	border-left: 1.5px solid #424242;
+	border-top-left-radius: 20px;
+}
+
+#section_content{
+	display: flex;
+	justify-content: center;
+	align-items: start;
+}
+
+.menu{
+ 	background-color: #214579;
+ }
+
+.items_site_005 a{
+	text-decoration: none;
+	color: #0174DF;
+}
+
+.items_site_005 a:hover{
+	color: rgb(20,116,223);
+}
+
+#div_identite{
+	width: 100%;
+	height: 60%;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+}
+
+#div_identite img{
+	width: 60%;
+	height: 60%;
+	border-radius: 15px;
+	margin: 10px;
+	box-shadow: 1px 10px 20px rgba(40,40,40,.7);
+}
+
+#menu_parameters_content table{
+	position: absolute;
+	top: 120px;
+	float: right;
+	right: 350px;
+	color: white;
+	border-spacing: 5px;
+	border: 1px solid rgba(35,35,35,.9);
+}
+
+.changingMode_option{
+	background-color: rgba(35,35,35,.6);
+	padding: .3em;
+	height: 13px;
+	width: 170px;
+}
+
+.changingMode_option:hover{
+	background-color: rgba(35,35,35,1);
+	cursor: pointer;
+}
+
+footer{
+	min-height: 50px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	background-color:  rgba(35,35,35,1);
+	color: white;
+}
+
+#span{
+	margin: none;
+}
+
+#span:hover{
+	cursor: pointer;
+	color: grey;
+}
+
+#footer_hidden_box{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	opacity: .5;
+}
+
+#footer_content_box{
+	position: fixed;
+	height: 50%;
+	top: 25%;
+	width: 50%;
+	left: 25%;
+	text-align: center;
+	color: white;
+	background-color:  rgba(40,40,40,1);
+}
+
+#footer_content_box_title{
+	margin: 10px;
+}
+
+#footer_content_box a{
+	text-decoration: none;
+	color: grey;
+}
+
+#footer_content_box a:hover{
+	cursor: pointer;
+	color: gold;
+}
+
+.mail{
+	text-decoration: underline;
+}
+
+#span2{
+	padding:.5em;
+	border: 1px solid grey;
+}
+
+#span2:hover{
+	background-color: grey;
+	cursor: pointer;
+}
+
+}

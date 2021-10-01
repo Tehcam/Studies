@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1579971880 source:c:\users\corentin\desktop\isn\test\c++ test\jeu_console\test_console\bin\head.h
+	<iostream>
+	<cstdio>
+	<windows.h>
+	<string.h>
+
+1579968193 source:c:\users\corentin\desktop\isn\test\c++ test\jeu_console\test_console\bin\version1.0.cpp
+	"head.h"
+
+1579967877 c:\users\corentin\desktop\isn\test\c++ test\jeu_console\test_console\bin\head.h
+	<iostream>
+	<cstdio>
+	<windows.h>
+	<string.h>
+

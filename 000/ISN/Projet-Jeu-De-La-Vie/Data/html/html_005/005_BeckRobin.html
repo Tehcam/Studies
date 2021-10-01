@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+
+ <html lang="fr">
+ <head>
+ 	<title>Robin.BECK</title>
+ 	<meta charset="utf-8">
+ 	<link rel="stylesheet" type="text/css" href="../css_005/005_BeckRobin/005_BeckRobin_css1.css" id="stylesheet">
+ 	<link rel="icon" type="image/ico" href="../img_005/005_MachetCorentin/page_icon.ico">
+ </head>
+ <body>
+ 	<!--header commun-->
+	<div id="menu_parameters_content" style="display: none;">
+	<!-- parametres -->
+		<table>
+			<tr><td class="changingMode_option"><i>optionIndisponible</i></td></tr>
+			<tr><td class="changingMode_option"><i>optionIndisponible</i></td></tr>
+			<tr><td class="changingMode_option" id="jour">Mode Jour</td></tr>
+			<tr><td class="changingMode_option" id="nuit">Mode Nuit</td></tr>
+		</table>
+	</div>
+	<header>
+		<div id="header_content">
+		<!-- flex-box du header -->
+			<div class="head" id="title_presentation">
+			<!-- titres et sous-titre de page -->
+				<span id="M">M</span>
+				<div>
+					<h1>a présentation de group'</h1>
+					<h2>ini-projet ISN : les CV <span>par GP_005</span></h2>
+				</div>
+			</div>
+			<div class="head" id="icon_parameters">
+			<!-- icone des parametres-->
+				<img src="../img_005/005_MachetCorentin/parametres.ico">
+				<p id="options">Options</p>
+			</div>
+		</div>
+	</header>
+
+	<nav id="menu_du_site_005">
+		<!--menu du site -->
+			<div class="menu" id="menu_du_site_content" style="display: block;">
+				Notre site :
+			</div>
+			<ul id="menu_du_site_items" style="display: block;">
+				<li class="items_site_005"><a href="../index_005.html">Accueil</a></li>
+				<li class="items_site_005"><a href="005_MachetCorentin.html">Corentin</a></li>
+				<li class="items_site_005"><a href="#">Robin</a></li>
+				<li class="items_site_005"><a href="https://www.monbureaunumerique.fr" target="_bank">Lien vers ENT</a></li>
+				<li class="items_site_005"><a href="../jeu_console.html">Projet "Downsy & Upyre"</a></li>
+				<li class="items_site_005"><a href="../000_project/presentation.html">Projet de BAC</a></li>
+			</ul>
+		</nav>
+
+
+
+
+<section id="box1">
+	<p id="bjr">Bonjour, je m'appelle Robin et voici mon CV.</p>
+	<p>
+		Je ne connais pas encore le rendu, mais je suis sûr que vous avez déjà compris que mon niveau en progamation est plutôt bas. 
+		Si oui, je tient à dire que je compte sur cette année pour en apprendre le plus et que bien sûr je suis intérressé par cette matière. 
+		Si je vous ai dupé alors je suis ravi d'avoir déja compris ce que j'ai fait.
+	</p>
+	<p>
+		Hormis ce seul défaut, je suis un ancient astronaute de la NASA, j'ai obtenu un prix Poolizer à mes 5 ans et mon BAC français, seulement je sais mai keske tu ve la poési c pa façil.
+	</p>
+	<img src="../img_005/005_BeckRobin/PHOTOQ.jpg" id="photo_robin">
+</section>
+
+
+
+
+	<footer>
+	<!-- mail auteur, charte, lien vers ent -->
+		<p id="span" class="infos">Les p'tites infos...</p>
+	</footer>
+	<div id="les_ptites_infos" style="display: none;">
+	<!--infos animées du footer-->
+		<div id="footer_hidden_box"></div>
+		<div id="footer_content_box">
+			<div id="footer_content_box_title">Les p'tites infos...</div>
+			<p id="info_footer">
+			<!--contenu footer-->
+				Vous pouvez contacter l'auteur de cette page à l'adresse mail suivante : <span class="mail">robin.beck@monbureaunumerique.fr</span><br>
+				Le lien d'accès à l'ENT "Mon bureau numérique" est disponible dans le menu principal de ce site (toute page confondue), ou en cliquant <a href="https://www.monbureaunumerique.fr" target="_bank">ici</a> !<br>
+				La charte d'utilisation et autres mentions légales sont disponibles sur <a href="005_mention_legales_footer.html" target="_bank">La page des mentions relatives au site</a>.<br>
+				<br>
+				Merci de votre visite !<br>2019 - 2020<br>
+				<br>
+				<span id="span2" class="infos">Fermer les p'tites infos</span>
+			</p>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../css_005/005_MachetCorentin/005_MachetCorentin_script_1.js"></script>
+	<script type="text/javascript">
+		query('#icon_parameters', '#menu_parameters_content');
+		query('#span', '#les_ptites_infos');
+		query('#span2', '#les_ptites_infos');
+		
+		var jour = document.querySelector('#jour');
+		var nuit = document.querySelector('#nuit');
+
+		jour.addEventListener('click', function(){
+			document.querySelector('#stylesheet').href = "../css_005/005_BeckRobin/005_BeckRobin_css1.css" ;
+		});
+		nuit.addEventListener('click', function(){
+			document.querySelector('#stylesheet').href = "../css_005/005_BeckRobin/005_BeckRobin_css2.css" ;
+		});
+	</script>
+ </body>
+ </html>

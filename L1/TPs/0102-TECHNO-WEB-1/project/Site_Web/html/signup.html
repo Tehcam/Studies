@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<title>S'inscrire</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Corentin MACHET">
+		<link rel="stylesheet" type="text/css" href="../css/commun-styles-sheet.css">
+		<link rel="stylesheet" type="text/css" href="../css/signup.css">
+		<link rel="icon" type="img/ico" href="../media/img/icone.ico">
+	</head>
+	<body>
+		<!-- MENU DE NAVIGATION -->
+		<div id="menu" class="flex" data-tooltip="Menu">&times;</div>
+		<div id="nav-bkg" class="nav" style="display: none;"></div>
+		<nav class="flex flex-nav nav" style="display: none;">
+			<a href="../index.html"><span>Accueil</span></a>
+			<a href="../index.html#plan" onclick="showNav()"><span>Plan du site</span></a>
+			<a href="#" class="forbidden"><span data-tooltip="Fonctionnalité Indisponible">Se connecter</span></a>
+			<a href="#"><span>S'inscrire</span></a>
+			<a href="../index.html#mentions" onclick="showNav()"><span>Mentions Légales</span></a>
+			<a href="../html/commentaire.html"><span>Laisser un commentaire</span></a>
+			<a id="toggleTheme">Thème sombre : <span class="sombre oui">oui</span> / <span class="sombre non">non</span></a>
+		</nav>
+		<!-- CORPS DE PAGE -->
+		<section class="flex">
+			<!-- back -->
+			<div class="bk-container"></div>
+			<!-- font -->
+			<div class="flex container">
+				<picture class="flex illustration-container">
+					<img src="../media/img/undraw_Login_re_4vu2.svg" alt="illustration from undraw" id="ill1">
+					<label for="ill1">Bienvenue !</label>
+				</picture>
+				<!-- volet d'inscription -->
+				<fieldset>
+					<legend align="center" class="flex">@</legend>
+					<h2><small>Nouveau sur notre site ?</small><br>Inscrivez-vous</h2>
+					<form action="#" method="post" enctype="text/plain" class="flex signup">
+						<label for="pseudo">Pseudo</label>
+						<input id="pseudo" name="pseudo" type="text" placeholder="Entrer votre pseudo" required="required">
+						<label for="mail">Mail</label>
+						<input type="text" name="mail" id="mail" placeholder="Entrer votre e-mail" required="required">
+						<label for="password">Mot de passe</label>
+						<input type="password" name="password" id="passwpord" placeholder="Entrer votre mot de passe" required="required">
+						<div class="flex">
+							<input type="checkbox" name="check" id="check" required="required"><label for="check">J'accepte les conditions générales d'utilisation.</label>
+						</div>
+						<input type="button" name="submit" id="submit" value="Valider" onclick="sign();">
+					</form>
+				</fieldset>
+			</div>
+		</section>
+		<!-- FIN DE PAGE -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/bkAnimation.js"></script>
+		<script type="text/javascript" src="../js/navAnimation.js"></script>
+		<script type="text/javascript" src="../js/signup.js"></script>
+	</body>
+</html>
+<!-- end // Signup -->

@@ -1,0 +1,83 @@
+@font-face
+{
+	font-family: Starkey;
+	src: url(../bin/Starkey_PERSONAL_USE.ttf);
+}
+
+@keyframes fromRigth
+{
+	from
+	{
+		right: -100%;
+	}
+	to
+	{
+		right: 0;
+	}
+}
+
+@keyframes fromLeft
+{
+	from
+	{
+		left: -100%;
+	}
+	to
+	{
+		left: 0;
+	}
+}
+
+/*CLASSES*/
+
+*:target
+{
+	color: gold !important;
+}
+
+a:visited
+{
+	color: purple;
+}
+
+.flex
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title
+{
+	font-family: Starkey;
+}
+
+.lil
+{
+	background: var(--text-color);
+	font-size: 1.2rem;
+	padding-right: 3px;
+	padding-left: 3px;
+	border-radius: 5px;
+	text-shadow: none !important;
+}
+
+.tools
+{
+	background: rgba(0, 0, 0, .5);
+	color: white;
+	padding: .5em;
+	border-radius: 15%;
+	z-index: 99;
+}
+
+.forbidden, .forbidden:hover
+{
+	color: rgba(0, 0, 0, .5) !important;
+	cursor: not-allowed !important;
+}
+
+*[target='_blank']:after
+{
+	content: url(../media/img/hyperlink.png);
+}

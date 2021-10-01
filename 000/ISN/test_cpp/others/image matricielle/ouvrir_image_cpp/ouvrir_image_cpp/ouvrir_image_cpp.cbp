@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ouvrir_image_cpp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ouvrir_image_cpp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ouvrir_image_cpp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-Wno-write-strings" />
+			<Add option="-x c++" />
+			<Add option="-std=c++98" />
+			<Add option="-pedantic" />
+			<Add directory="$(CODEBLOCKS)/sdk/winbgim/include" />
+		</Compiler>
+		<Linker>
+			<Add library="bgi" />
+			<Add library="gdi32" />
+			<Add library="comdlg32" />
+			<Add library="uuid" />
+			<Add library="oleaut32" />
+			<Add library="ole32" />
+			<Add directory="$(CODEBLOCKS)/sdk/winbgim/lib" />
+		</Linker>
+		<Unit filename="../Lit_Fichier_P5_PGM_gris.cpp" />
+		<Unit filename="../img/Dali600x500.pgm" />
+		<Unit filename="../img/Image500x300.pgm" />
+		<Unit filename="../img/Image800x600.pgm" />
+		<Unit filename="../img/Image900x700.pgm" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

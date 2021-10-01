@@ -1,0 +1,14 @@
+html, body{
+	height: 30em;
+	border: none;
+	margin: 0px;
+}
+
+.box{
+	position: absolute;
+	width: 80px; height: 80px;
+	text-align: center;
+	font-size: 40px;
+	background-color: blue;
+	cursor: move;
+}

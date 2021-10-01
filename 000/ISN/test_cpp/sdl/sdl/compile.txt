@@ -1,0 +1,9 @@
+mingw32-g++.exe -Wall -g -I"C:\Program Files (x86)\CodeBlocks\SDL2-2.0.10\i686-w64-mingw32\include" -c "C:\Users\corentin\Desktop\PRIVATE\ISN\Test\c++ test\sdl\sdl\main.cpp" -o obj\Debug\main.o
+mingw32-g++.exe -L"C:\Program Files (x86)\CodeBlocks\SDL2-2.0.10\i686-w64-mingw32\lib" -o bin\Debug\sdl.exe obj\Debug\main.o   -lmingw32 -lSDL2main -lSDL2.dll -luser32 -lgdi32 -lwinmm -ldxguid "C:\Program Files (x86)\CodeBlocks\MinGW\lib\libbgi.a"
+Output file is bin\Debug\sdl.exe with size 1.56 MB
+Running project post-build steps
+XCOPY C:\Program Files (x86)\CodeBlocks\SDL2-2.0.10\x86_64-w64-mingw32\bin\*.dll bin\Debug\ /D /Y
+Nombre de paramŠtres non valide
+Process terminated with status 4 (0 minute(s), 3 second(s))
+0 error(s), 0 warning(s) (0 minute(s), 3 second(s))
+ 

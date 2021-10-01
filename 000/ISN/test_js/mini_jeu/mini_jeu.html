@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Mini Jeu</title>
+	<meta charset="utf-8">
+	<meta name="author" content="SEN">
+	<meta name="keywords" content="">
+	<meta name="description" content="game to test js script">
+
+	<link rel="stylesheet" type="text/css" href="css/mini_jeu.css">
+	<link rel="stylesheet" type="text/css" href="css/clair.css" id="css">
+	
+</head>
+<body>
+	<header>
+		<h1>Mini Jeu</h1>
+		<h2>Glisser la bonne reponse : <abbr>LV 1</abbr></h2>
+	</header>
+	<section>
+		<div id="prop"><!-- propositions -->
+			<span class="span" id="a0"></span>
+			<span class="span" id="a1"></span>
+			<span class="span" id="a2"></span>
+			<span class="span" id="a3"></span>
+		</div>
+		<div id="case"><!-- case reponse -->
+			<p id="p_awn"> =</p>
+			<span id="awn">?</span>
+		</div>
+	</section>
+	<footer>
+		<p id="p_color">Changer la couleur de fond :</p><br>
+		<span class="couleur" id="clair">Clair</span><br>
+		<span class="couleur" id="sombre">Sombre</span>
+	</footer>
+
+	<script type="text/javascript">//background color
+		(function(){
+			var link = document.getElementById('css'),
+				clair = document.getElementById('clair'),
+				sombre = document.getElementById('sombre');
+
+			function sombreButton(){
+				link.href = 'css/sombre.css';
+			};
+
+			function clairButton(){
+				link.href = 'css/clair.css';
+			};
+
+			clair.addEventListener('click', clairButton);
+			sombre.addEventListener('click',sombreButton);
+
+		})();
+	</script>
+	<script type="text/javascript" src="js/game.js" id="originalScript">//dvlpmt du jeu</script>
+	<script type="text/javascript" src="js/random.js" id="secondScript">//dvlpmt du jeu</script>
+
+</body>
+</html>

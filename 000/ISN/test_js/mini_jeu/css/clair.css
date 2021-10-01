@@ -1,0 +1,9 @@
+section{
+	border: 2px solid black;
+}
+
+.couleur:hover{
+	color: white;
+	background-color: black;
+	cursor: default;
+}

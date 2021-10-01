@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+	<title>index</title>
+	<meta charset="utf-8">
+	<meta name="author" content="SEN">
+	<meta name="description" content="new test about mini_jeu">
+</head>
+<body>
+	<p>
+		<a href="#" id="a">click here to start the game</a>
+	</p>
+	<script type="text/javascript">
+		(function(){
+			var a = document.getElementById('a');
+			a.addEventListener('click', function(){
+				window.open('mini_jeu.html', 'test_mini_jeu', 'height=645, width=850');
+			}, false);
+		})();
+	</script>
+</body>
+</html>

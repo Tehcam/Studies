@@ -1,0 +1,56 @@
+/*
+	NAV VERTICAL - LOWERSIDE
+*/
+
+@media screen and (max-width: 963px), screen and (max-height: 599px){
+
+
+#menu_du_site_005{
+	position: fixed;
+	z-index: 20;
+	top: 0px;
+	left: 0px;
+	width: 30px;
+	height: 100%;
+	box-shadow: 1px 10px 20px rgba(132,132,132,.6);
+}
+
+#menu_du_site_005:hover{
+	cursor: pointer;
+}
+
+#menu_du_site_005 div, #menu_du_site_005 ul{
+	background-color: #312E2E;
+	position: fixed;
+	padding: 1.5em;
+}
+
+#menu_du_site_005 ul{
+	height: 100%;
+	width: 200px;
+	top: 75px;
+	color: #CEF6F5;
+}
+
+#menu_du_site_005 li a{
+	color: #CEF6F5;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#menu_du_site_005 li a:hover{
+	text-decoration: underline;
+}
+
+#menu_du_site_005 div{
+	width: 200px;
+	height: 80px;
+}
+
+#menu_du_site_005 div:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+}

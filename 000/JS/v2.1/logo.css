@@ -1,0 +1,76 @@
+:root
+{
+	--color: rgb(70, 60, 90);
+}
+
+body, html
+{
+	width: 100%;
+	height: 100%;
+	background: var(--color);
+	margin: 0;
+	padding: 0;
+}
+
+.container
+{
+	display: inline-block;
+	position: relative;
+	font-size: 150px;
+	font-family: Comic Sans MS;
+	text-transform: uppercase;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.container div:after 
+{
+	content: attr(data-text);
+	padding-right: 0;
+	color: transparent;
+	background: linear-gradient(to right, purple, blue, lightblue, lightgreen, yellow, orange, red);
+	-webkit-background-clip: text;
+	border-right: 5px solid white;
+	width: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.container:hover div:after
+{
+	animation: 2s anime linear forwards;
+}
+
+.container div:before 
+{
+	content: attr(data-text);
+	background: transparent;
+	-webkit-background-clip: text;
+	color: var(--color);
+	text-shadow: 0 2px 0 white, 0 -2px 0 white;
+}
+
+@keyframes anime
+{
+	0%, 100%;
+	{
+		width: 0;
+		padding-right: 0;
+		opacity: 0;
+	}
+	20%
+	{
+		width: 0;
+		padding-right: 0;
+		opacity: 1;
+	}
+	80%
+	{
+		width: 100%;
+		padding-right: 20px;
+		opacity: 1;
+	}
+}

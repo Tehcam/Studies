@@ -1,0 +1,57 @@
+/*
+	NAV VERTICAL - STYLE PAR DEFAUT
+*/
+
+
+@media screen and (min-width: 964px) and (min-height: 600px){
+
+/*nav_default*/
+aside nav{
+	position: relative;
+	float: right;
+	border-bottom: 2px solid rgba(46, 154, 254, 1);
+	border-left: 2px solid rgba(46, 154, 254, 1);
+	border-radius: 15px;
+	height: 100%;
+	width: 100%;
+	box-shadow: 1px 10px 20px rgba(88, 88, 88, .5);
+}
+
+ul{
+	margin: unset;
+	height: 90%;
+}
+
+li{
+	padding: 4px;
+	color: #0174DF;
+}
+
+li:hover{
+	color: rgba(46, 154, 254, 1);
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.menu{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 1em;
+	color: white;
+	text-shadow: -3px 3px #585858;
+	padding-left: 1em;
+}
+
+#menu_du_site_005{
+	position: relative;
+	float: left;
+	border-bottom: 2px solid rgba(46, 154, 254, 1);
+	border-left: 2px solid rgba(46, 154, 254, 1);
+	border-radius: 15px;
+	box-shadow: 1px 10px 20px rgba(88, 88, 88, .5);
+	margin-right: 20px;
+	height: 100%;
+	width: 15%;
+}
+
+}/*fin du media query*/

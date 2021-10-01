@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1586164209 source:c:\users\corentin\desktop\private\isn\test\c++ test\test3_graphics\test3_graphics.cpp
+	<graphics.h>
+	<iostream>
+	<winbgim.h>
+

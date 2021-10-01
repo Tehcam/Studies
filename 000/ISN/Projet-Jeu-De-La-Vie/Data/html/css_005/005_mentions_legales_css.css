@@ -1,0 +1,71 @@
+
+html, body{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin: unset;
+}
+
+p{
+	text-align: center;
+	margin: 4em;
+	border: 2px solid lightblue;
+	height: 50%;
+	padding: 25px;
+	border-radius: 20px;
+	color: blue;
+	font-family: Comic Sans MS;
+}
+
+h1{
+	margin: unset;
+	padding-top: .5em;
+}
+
+h3{
+	margin-top: unset;
+}
+
+header{
+	background-image: linear-gradient(#0040FF, white);
+	height: 150px;
+	color: lightblue;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+footer{
+	width: 100%;
+	height: 100px;
+	background-image: linear-gradient(white, #0040FF);
+	position: relative;
+	bottom: 0px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#back{
+	text-align: center;
+	text-decoration: none;
+	color: lightblue;
+	height: 20%;
+	font-size: 20px;
+}
+
+#back:hover{
+	color: gold;
+	cursor: pointer;
+}
+
+#pdf:hover{
+	cursor: pointer;
+	color: gold;
+}
+
+.mail{
+	text-decoration: underline;
+}
+

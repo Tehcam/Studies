@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1511770381 source:c:\users\isn\documents\5_isn (2019-12-02)\01_base\base.cpp
+	<iostream>
+	<fstream>
+	<math.h>
+	<GraphicsISN.h>
+
+1575887676 source:c:\users\isn\documents\5_isn (2019-12-02)\02_dessin\dessin.cpp
+	<iostream>
+	<fstream>
+	<math.h>
+	<graphics.h>
+	<GraphicsISN.h>
+
+1266090614 c:\program files (x86)\codeblocks-ep\sdk\winbgim\include\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+

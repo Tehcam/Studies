@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<title>Index</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Corentin MACHET">
+		<link rel="stylesheet" type="text/css" href="css/commun-styles-sheet.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="icon" type="img/ico" href="media/img/icone.ico">
+	</head>
+	<body>
+		<!-- ENTETE DE PAGE -->
+		<header class="flex flex-header">
+			<picture id="logo">
+				<img src="media/img/urca.png" alt="logo-urca">
+			</picture>
+			<div id="titleContainer">
+				<h1 class="title">Les Métiers du Cinéma</h1>
+				<h2 class="title">Présentation</h2>
+				<small class="lil" style="--text-color:green;">modifier le 15/12/2020</small>
+			</div>
+			<!-- icon du menu -->
+			<div id="menu" class="flex" data-tooltip="Menu">&times;</div>
+		</header>
+		<!-- MENU DE NAVIGATION -->
+		<div id="nav-bkg" class="nav" style="display: none;"></div>
+		<nav class="flex flex-nav nav" style="display: none;">
+			<a href="index.html"><span>Accueil</span></a>
+			<a href="#plan" onclick="showNav()"><span>Plan du site</span></a>
+			<a href="#" class="forbidden"><span data-tooltip="Fonctionnalité Indisponible">Se connecter</span></a>
+			<a href="html/signup.html"><span>S'inscrire</span></a>
+			<a href="#mentions" onclick="showNav()"><span>Mentions Légales</span></a>
+			<a href="html/commentaire.html"><span>Laisser un commentaire</span></a>
+			<a id="toggleTheme">Thème sombre : <span class="sombre oui">oui</span> / <span class="sombre non">non</span></a>
+		</nav>
+		<!-- CORPS DE PAGE -->
+		<section class="container">
+			<article class="main main-prod" style="--text-color:rgb(250, 150, 150);" data-href="html/content.html">
+				<em class="lil">Prod</em>
+				<h3>Conception</h3>
+				<p>Découvrez les étapes de production et les métiers en lien avec la création d'un film ! Synopsys, scénarii et découpages techniques n'auront plus de secret pour vous.</p>
+			</article>
+			<article class="main main-real" style="--text-color:lightblue;" data-href="html/content.html">
+				<em class="lil">Réal</em>
+				<h3>Réalisation</h3>
+				<p>Gros plan sur les métiers de terrain, au sein même du tournage ! Chef op', ingé son, réalisateur... ils vous attendent tous !</p>
+			</article>
+			<article class="main main-actor" style="--text-color:lightblue;" data-href="html/content.html">
+				<em class="lil">Réal</em>
+				<h3>Acteurs</h3>
+				<p>Un petit tour chez les comédiens vous tente ? Alors n'attendez plus et mettez-vous en route vers ces métiers du vers et de la prose...</p>
+			</article>
+			<article class="main main-tech" style="--text-color:gold;" data-href="html/content.html">
+				<em class="lil">Tech</em>
+				<h3>Equipe Technique</h3>
+				<p>Primordial, les techniciens accompagnent toujours l'équipe de réalisation. Découvrez l'envers du décor : ils se chargent de vous montrer les ficelles du métier hors-champ !</p>
+			</article>
+			<article class="main main-postprod" style="--text-color:lightgreen;" data-href="html/content.html">
+				<em class="lil">PostProd</em>
+				<h3>Montage</h3>
+				<p>Voici venir l'équipe de post-production ! Découvrez au plus vite le montage, l'étalonnage, le mixage et tous les autres métiers nécessaires à la finalisation d'un film.</p>
+			</article>
+		</section>
+		<!-- images d'illustration -->
+		<aside class="illustration-container ill1">
+			<img class="illustration" src="media/img/undraw_videographer_nnc7.svg" alt="illustration from undraw">
+		</aside>
+		<aside class="illustration-container ill2">
+			<img class="illustration" src="media/img/undraw_fashion_photoshoot_mtq8.svg" alt="illustration from undraw">
+		</aside>
+		<!-- PIED DE PAGE -->
+		<footer class="flex flex-footer">
+			<div class="foot foot-about">
+				<h3>A propos de moi...</h3>
+				<p>
+					Etudiant en licence informatique, je me passionne pour ce domaine depuis mon arrivée au collège !<br>
+					C'est à présent l'occasion d'en apprendre davantage, d'autant que j'ai pu intégrer le CMI Info (cursus master en ingénieurie) de l'URCA. <br>
+					<br>
+					Bonne visite sur mon site !
+				</p>
+				<hr>
+				<p style="text-align: right; font-weight: bold;">
+					Corentin MACHET
+				</p>
+			</div>
+			<div class="foot foot-plan">
+				<h3 id="plan">Plan du site</h3>
+				<ul>
+					<li>
+						<h4><a href="index.html">Accueil</a></h4>
+					</li>
+					<li>
+						<h4><a href="#" class="forbidden" data-tooltip="Fonctionnalité Indisponible">Se connecter</a></h4>
+					</li>
+					<li>
+						<h4><a href="html/signup.html">S'inscrire</a></h4>
+					</li>
+					<li>
+						<h4><a href="bin/consignes/Projet (1).pdf" download>Télécharger les consignes</a></h4>
+					</li>
+					<li>
+						<h4>Mes TPs</h4>
+						<ol>
+							<li><a href="html/frame-tp001.html" target="_blank">TP001 </a></li>
+							<li><a href="html/frame-tp002.html" target="_blank">TP002 </a></li>
+							<li><a href="html/frame-tp003.html" target="_blank">TP003 </a></li>
+						</ol>					
+					</li>
+					<li>
+						<h4>Les Métiers du Ciné</h4>
+						<ol>
+							<li><a href="html/content.html">Conception</a></li>
+							<li><a href="html/content.html">Réalisation</a></li>
+							<li><a href="html/content.html">Acteurs</a></li>
+							<li><a href="html/content.html">Equipe Technique</a></li>
+							<li><a href="html/content.html">Montage</a></li>
+						</ol>					
+					</li>
+				</ul>
+			</div>
+			<div class="foot foot-mentions">
+				<h3 id="mentions">Mentions</h3>
+				<p>
+					Ce site est un travail à but pédagogique, proposé dans le cadre du module INFO0102 de l'URCA (Université de Reims Champagne-Ardenne).
+				</p>
+				<hr>
+				<p>
+					Merci de respecter ce travail.
+				</p>
+			</div>
+			<div class="foot foot-comment">
+				<h3>Laissez un commentaire !</h3>
+				<p>
+					Cliquez ci-dessous pour accéder à la page suivante. Un formulaire vous y attend pour me faire un retour quant à ce site !
+				</p>
+				<div class="comment-container">
+					ICI
+				</div>
+			</div>
+			<div id="copyright" data-tooltip="All Rights Reserved">Copyright - 2020</div>
+		</footer>
+		<!-- FIN DE PAGE -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bkAnimation.js"></script>
+		<script type="text/javascript" src="js/navAnimation.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>
+<!-- end // Index -->

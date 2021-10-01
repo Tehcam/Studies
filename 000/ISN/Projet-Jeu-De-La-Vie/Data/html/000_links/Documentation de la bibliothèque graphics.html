@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML//EN">
+<!-- saved from url=(0069)http://para.inria.fr/~peskine/enseignement/iup-2002/graphics-doc.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Documentation de la bibliothèque graphics</title>
+<script data-dapp-detection="">
+(function() {
+  let alreadyInsertedMetaTag = false
+
+  function __insertDappDetected() {
+    if (!alreadyInsertedMetaTag) {
+      const meta = document.createElement('meta')
+      meta.name = 'dapp-detected'
+      document.head.appendChild(meta)
+      alreadyInsertedMetaTag = true
+    }
+  }
+
+  if (window.hasOwnProperty('web3')) {
+    // Note a closure can't be used for this var because some sites like
+    // www.wnyc.org do a second script execution via eval for some reason.
+    window.__disableDappDetectionInsertion = true
+    // Likely oldWeb3 is undefined and it has a property only because
+    // we defined it. Some sites like wnyc.org are evaling all scripts
+    // that exist again, so this is protection against multiple calls.
+    if (window.web3 === undefined) {
+      return
+    }
+    __insertDappDetected()
+  } else {
+    var oldWeb3 = window.web3
+    Object.defineProperty(window, 'web3', {
+      configurable: true,
+      set: function (val) {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        oldWeb3 = val
+      },
+      get: function () {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        return oldWeb3
+      }
+    })
+  }
+})()</script></head>
+
+<body>
+<h1>Introduction</h1>
+
+La bibliothèque <tt>graphics</tt> a été écrite par <a href="http://pauillac.inria.fr/~xleroy/">Xavier Leroy</a> pour le
+langage <a href="http://caml.inria.fr/">Caml</a>. Elle a été adaptée
+par <a href="http://www.liafa.jussieu.fr/~prieur/">Christophe
+Prieur</a>.<p>
+
+La bibliothèque <tt>graphics</tt> devrait fonctionner sur tout système
+Unix (Linux, FreeBSD, OpenBSD, MacOS X...)
+
+</p><h2>Instructions d'utilisation</h2>
+
+Les fonctions de la bibliothèque <tt>graphics</tt> sont accessibles
+depuis l'en-tête <tt>graphics.h</tt>. Lorsque l'on compile un
+programme qui utilise <tt>graphics.h</tt>, l'en-tête
+<tt>X11/Xlib.h</tt> doit également être accessible.<p>
+
+Il faut lier le programme avec la bibliothèque <tt>graphics</tt> ainsi
+que la bibliothèque <tt>X11</tt>. Cela donne quelque chose comme&nbsp;:
+<br>
+
+</p><p><code>gcc -O -Wall -W -ansi -pedantic <strong>-I /usr/X11R6/include
+-I /repertoire/de/la/libgraphics/include</strong> -c
+programme-graphique.c</code> <br> <code>gcc -o programme-graphique
+programme-graphique.o <strong>-L /usr/X11R6/lib -L
+/repertoire/de/la/libgraphics -lgraphics -lX11</strong></code> <br>
+
+Remplacer <code>/repertoire/de/la/libgraphics/include</code> par le
+répertoire contenant le fichier <code>graphics.h</code>, et
+<code>/repertoire/de/la/libgraphics/include</code> par le répertoire
+contenant le fichier <code>graphics.a</code>. Par exemple, avec
+l'installation par défaut&nbsp;:<br>
+
+</p><p><code>gcc -O -Wall -W -ansi -pedantic <strong>-I /usr/X11R6/include
+-I /usr/local/include</strong> -c programme-graphique.c</code> <br>
+<code>gcc -o programme-graphique programme-graphique.o <strong>-L
+/usr/X11R6/lib -L /usr/local/lib -lgraphics -lX11</strong></code> <br>
+
+</p><h2>Installation</h2>
+
+Vous pouvez télécharger la bibliothèque graphics <a href="http://para.inria.fr/~peskine/enseignement/iup-2002/graphics.tar.gz">ici-même</a> (<a href="http://para.inria.fr/~peskine/enseignement/iup-2002/graphics.tar.gz">l'URL
+originale</a>). Téléchargez également la documentation, qui est le
+fichier que vous êtes en train de lire (<a href="http://para.inria.fr/~peskine/enseignement/iup-2002/graphics-doc.html">l'URL
+originale</a>).
+
+Pour compiler la bibliothèque, extrayez les fichiers de l'archive à
+l'aide de la commande <code>tar -xzf graphics.tar.gz</code>.
+Placez-vous dans le répertoire <code>Libgraphics</code> et tapez
+<code>make</code>. Si cela échoue, vous devrez probablement installer
+les bibliothèques X Window ou changer l'emplacement où le
+<code>Makefile</code> les cherche. Si <code>make</code> réussit, tapez
+<code>make test</code> puis <code>./test</code> pour vérifier que la
+bibliothèque graphics fonctionne.
+
+Tapez <code>make install</code> pour installer la bibliothèque sous
+<code>/usr/local</code>. Vous pouvez également éditer les lignes
+<code>INCLUDE=</code><em>...</em> et <code>LIB=</code><em>...</em>
+pour choisir un autre lieu d'installation.
+
+<h1>Description des fonctions de la bibliothèque</h1>
+
+<h2>Gestion de la fenêtre</h2>
+
+<p><code>void gr_open_graph(char* arg);</code><br>
+
+Ouvre une fenêtre graphique. L'argument indique l'emplacement et la
+taille de la fenêtre. On peut utiliser la chaîne vide pour
+<code>arg</code>. Si on le souhaite, <code>arg</code> permet de
+spécifier la taille et la position de la fenêtre, par exemple pour une
+fenêtre de largeur 400 et de hauteur 200&nbsp;: <code>opengraph("
+400x200")</code> (noter l'espace initiale&nbsp;!).
+
+</p><p><code>void gr_close_graph(void);</code><br>
+
+Ferme la fenêtre graphique. En l'absence d'appel à cette fonction, la
+fenêtre graphique disparaît quand le programme se termine.
+
+</p><p><code>void gr_clear_graph(void);</code><br>
+
+Efface tout le contenu de la fenêtre graphique.
+
+</p><p><code>int gr_size_x(void);<br> int gr_size_y(void);</code><br>
+
+Renvoient respectivement la largeur et la hauteur de la fenêtre.
+
+</p><h2>Fonctions de dessin</h2>
+
+<h3>Dessin de base</h3>
+
+Le point en bas à gauche de la fenêtre graphique a les coordonnées (0,
+0). À tout instant, la bibliothèque maintient une <em>position
+courante</em>.
+
+<p><code>void gr_plot(int x, int y);</code><br>
+
+Affiche un point aux coordonnées (x, y).
+
+</p><p><code>void gr_moveto(int x, int y);</code><br>
+
+Déplace la position courante vers les coordonnées (x, y). Cette
+fonction n'a pas d'effet direct sur l'affichage.
+
+</p><p><code>void gr_current_point(int *x, int *y);</code><br>
+
+Place les coordonnées de la position courante à l'endroit pointé par
+<code>x</code> et <code>y</code>.
+
+</p><p><code>void gr_lineto(int x, int y);</code><br>
+
+Trace une ligne de la position courante aux coordonnées (x, y). La
+nouvelle position courante est (x, y).
+
+</p><h3>Polygones et courbes</h3>
+
+Ces fonctions ne modifient pas la position courante.
+
+<p><code>void gr_draw_poly(int* array, int npoints);</code><br>
+
+Dessine un polygone de sommets (<code>array[0]</code>,
+<code>array[1]</code>), (<code>array[2]</code>,
+<code>array[3]</code>), ..., (<code>array[2*npoints-1]</code>,
+<code>array[2*npoints]</code>).
+
+</p><p><code>void gr_draw_circle(int x, int y, int r);</code><br>
+
+Dessine un cercle de centre (x, y) et de rayon r.
+
+</p><p><code>void gr_draw_ellispe(int x, int y, int rx, int ry);</code><br>
+
+Dessine une ellipse de centre (x, y), de rayon horizontal rx et de
+rayon vertical ry.
+
+</p><p><code>void gr_draw_arc(int x, int y, int rx, int ry, int a1, int a2);</code><br>
+
+Dessine un arc d'ellipse de centre (x, y), de rayon horizontal rx et
+de rayon vertical ry, allant de l'angle a1 à l'angle a2 (en degrés).
+
+</p><h3>Remplissage</h3>
+
+<p><code>void gr_fill_rect(int x, int y, int w, int h);</code><br>
+
+Dessine un rectangle plein de sommet (x, y), de largeur w et de hauteur h.
+
+</p><p><code>void gr_fill_poly(int* array, int npoints);</code><br>
+
+Dessine un <a href="http://para.inria.fr/~peskine/enseignement/iup-2002/graphics-doc.html#gr_draw_poly">Polygone</a> rempli.
+
+</p><p><code>void gr_fill_circle(int x, int y, int r);</code><br>
+<code>void gr_fill_ellipse(int x, int y, int rx, int ry);</code><br>
+<code>void gr_fill_arc(int x, int y, int rx, int ry, int a1, int a2);</code><br>
+
+Ces fonctions dessinent respectivement un <a href="http://para.inria.fr/~peskine/enseignement/iup-2002/graphics-doc.html#gr_draw_circle">cercle</a> plein, une <a href="http://para.inria.fr/~peskine/enseignement/iup-2002/graphics-doc.html#gr_draw_ellipse">ellipse</a> pleine, un <a href="http://para.inria.fr/~peskine/enseignement/iup-2002/graphics-doc.html#gr_draw_arc">secteur</a> d'ellipse.
+
+</p><h2>Attributs de dessin</h2>
+
+<p><code>void gr_set_line_width(int width);</code><br>
+
+Règle la largeur du trait pour le dessin de lignes.
+
+</p><h3>Couleurs</h3>
+
+<pre>typedef unsigned long color;
+
+#define RGB(r,g,b) (((r) &lt;&lt; 16) + ((g) &lt;&lt; 8) + b)
+
+#define black   0x000000
+#define white   0xFFFFFF
+#define red     0xFF0000
+#define green   0x00FF00
+#define blue    0x0000FF
+#define yellow  0xFFFF00
+#define cyan    0x00FFFF
+#define magenta 0xFF00FF
+
+#define background white
+#define foreground black
+
+void gr_set_color(color c);
+
+color gr_get_color(int x, int y);
+</pre>
+
+Ces deux fonctions permettent respectivement de choisir la couleur
+pour les dessins futurs, et d'obtenir la couleur d'un point.
+
+Exemples&nbsp;:
+<pre>gr_set_color(white); /* Dessine en blanc */
+gr_set_color(yellow); /* Dessine en jaune */
+gr_set_color(RGB(128,128,128)); /* Dessine en gris */
+</pre>
+
+<h2>Affichage de texte</h2>
+
+<p><code>void gr_set_font(char *fontname);</code><br>
+
+Change la police de caractères qui sera utilisée pour dessiner du texte.
+
+</p><p><code>void gr_draw_char(char chr);</code><br>
+
+Dessine le caractère <code>chr</code> à la position courante.
+
+</p><p><code>void gr_draw_string(char *str);</code><br>
+
+Dessine la chaîne de caractères <code>str</code> à partir de la
+position courante.
+
+</p><p><code>void gr_text_size(char *str, int *w, int *h);</code><br>
+
+Calcule la largeur en pixels du texte <code>str</code> dans la police
+courante.
+
+<!-- Je ne documente pas les fonctions pour les images bitmap ni le
+     son -->
+
+</p><h2>Événements&nbsp;: lecture du clavier et de la souris</h2>
+
+<pre>struct status {
+  int mouse_x;
+  int mouse_y;
+  Bool button;
+  Bool key_pressed;
+  char key;
+};
+
+#define BUTTON_DOWN  0x00000001
+#define BUTTON_UP    0x00000002
+#define KEY_PRESSED  0x00000004
+#define MOUSE_MOTION 0x00000008
+#define POLL         0x00000010
+
+struct status* gr_wait_event(int eventmask);
+</pre>
+
+La fonction <code>gr_wait_event</code> suspend le programme jusqu'à ce
+qu'un des événements spécifiés se produise. Elle renvoie des
+informations sur l'état du clavier et de la souris.
+
+Exemples&nbsp;:
+<pre>gr_wait_event(BUTTON_DOWN); /* attend un clic de souris */
+gr_wait_event(BUTTON_DOWN | BUTTON_UP | MOUSE_MOTION); /* attend un clic, un déclic ou un déplacement de souris */
+gr_wait_event(KEY_PRESSED); /* attend une frappe de touche */
+char * status; status = gr_wait_event(POLL); /* lit l'état du clavier et de la souris sans attendre */
+</pre>
+
+<p><code>void gr_mouse_pos(int *x, int *y);</code><br>
+
+Place aux adresses données la position courante de la souris.
+
+</p><p><code>Bool gr_button_down(void);</code><br>
+
+Teste si au moins un bouton de la souris est enfoncé.
+
+</p><p><code>Bool gr_key_pressed(void);</code><br>
+
+Teste si une touche est enfoncée.
+
+</p><p><code>char gr_read_key(void);</code><br>
+
+Attend une frappe de touche et renvoie la touche enfoncée.
+
+</p><h1>Exemple</h1>
+
+Le programme <a href="http://para.inria.fr/~peskine/enseignement/iup-2002/hexagone.c">hexagone</a> ouvre une fenêtre
+graphique, dessine un hexagone régulier, et attend que l'utilisateur
+appuie sur une touche.
+
+<hr>
+<address></address>
+<!-- hhmts start --> Last modified: Fri Oct 11 22:39:05 CEST 2002 <!-- hhmts end -->
+ 
+</body></html>

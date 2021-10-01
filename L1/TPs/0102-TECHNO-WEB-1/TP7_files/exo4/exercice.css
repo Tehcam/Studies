@@ -1,0 +1,44 @@
+html, body
+{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(20, 20, 30);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container
+{
+	text-align: center;
+	width: 25%;
+	height: 50%;
+	background-color: rgb(30, 30, 40);
+	box-shadow: 5px 5px 10px black;
+	border-radius: 25px;
+	color: 	white;
+}
+
+.title
+{
+	padding: 2em;
+	text-shadow: 0 6px 4px black;
+}
+
+.button
+{
+	border: solid 1px lightgreen;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 3em;
+	padding-left: 3em;
+	border-radius: 40px;
+}
+
+.button:hover
+{
+	cursor: pointer;
+	background-color: lightgreen;
+	color: darkgreen;
+}

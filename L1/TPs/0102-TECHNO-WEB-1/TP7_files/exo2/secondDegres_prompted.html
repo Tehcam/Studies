@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- Second -->
+
+<html lang="fr">
+	<head>
+		<title>Second</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Sprod-CMachet">
+	</head>
+	<body>
+		<script type="text/javascript">
+			var a = parseInt(prompt("Entrez le coefficient 'a' :"));
+			var b = parseInt(prompt("Entrez le coefficient 'b' :"));
+			var c = parseInt(prompt("Entrez le coefficient 'c' :"));
+
+			var delta = (b*b)+(-4*a*c);
+
+			if(delta >= 0)
+			{
+				if(delta == 0)
+				{
+					document.write("L'unique solution à l'équation du second degrès "+a+"<i>x</i><sup>2</sup> + "+b+"<i>x</i> + "+c+" est :<br>");
+					document.write("<i>x</i> = " + ((-b)/(2*a)));
+				}
+				else
+				{
+					document.write("Les deux solutions à l'équation du second degrès "+a+"<i>x</i><sup>2</sup> + "+b+"<i>x</i> + "+c+" sont :<br>");
+					document.write("<i>x</i> = " + ((-b+Math.sqrt(delta))/(2*a)) + "<br>ou<br>" + "<i>x</i> = " + ((-b-Math.sqrt(delta))/(2*a)));
+				}
+			}
+			else
+			{
+				document.write("Il n'existe aucune solution réel de cette équation.");
+			}
+		</script>
+	</body>
+</html>
+<!-- end // Second -->

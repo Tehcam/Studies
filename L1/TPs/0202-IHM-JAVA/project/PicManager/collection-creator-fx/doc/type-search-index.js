@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"collections_creator","l":"Controller"},{"p":"collections_creator","l":"CreatorLoader"},{"p":"collections_creator","l":"CreatorManager"},{"p":"collections_creator","l":"Viewer.MyListener"},{"p":"collections_creator","l":"StartCreator"},{"p":"collections_creator","l":"Viewer"}];updateSearchResults();

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<title>Commentaire</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Corentin MACHET">
+		<link rel="stylesheet" type="text/css" href="../css/commun-styles-sheet.css">
+		<link rel="stylesheet" type="text/css" href="../css/commentaire.css">
+		<link rel="icon" type="img/ico" href="../media/img/icone.ico">
+	</head>
+	<body>
+		<!-- ENTETE DE PAGE -->
+		<header class="flex flex-header">
+			<picture id="logo">
+				<img src="../media/img/urca.png" alt="logo-urca">
+			</picture>
+			<div id="titleContainer">
+				<h1 class="title">Les Métiers du Cinéma</h1>
+				<h2 class="title">Laissez un commentaire ici !</h2>
+				<small class="lil" style="--text-color:green;">modifier le 15/12/2020</small>
+			</div>
+			<!-- icon du menu -->
+			<div id="menu" class="flex" data-tooltip="Menu">&times;</div>
+		</header>
+		<!-- MENU DE NAVIGATION -->
+		<div id="nav-bkg" class="nav" style="display: none;"></div>
+		<nav class="flex flex-nav nav" style="display: none;">
+			<a href="../index.html"><span>Accueil</span></a>
+			<a href="#plan" onclick="showNav()"><span>Plan du site</span></a>
+			<a href="#" class="forbidden"><span data-tooltip="Fonctionnalité Indisponible">Se connecter</span></a>
+			<a href="signup.html"><span>S'inscrire</span></a>
+			<a href="#mentions" onclick="showNav()"><span>Mentions Légales</span></a>
+			<a href="commentaire.html"><span>Laisser un commentaire</span></a>
+			<a id="toggleTheme">Thème sombre : <span class="sombre oui">oui</span> / <span class="sombre non">non</span></a>
+		</nav>
+		<!-- CORPS DE PAGE -->
+		<section class="flex container">
+			<fieldset>
+				<legend>Commentaire</legend>
+				<form action="mailto:corentin.machet@etudiant.univ-reims.fr" method="post" enctype="text/plain">
+					<table class="main-container">
+						<caption>Complétez ce formulaire :</caption>
+						<tbody>
+							<tr>
+								<td>
+									<label for="fname">Nom :</label>
+								</td>
+								<td>
+									<input type="text" name="fname" id="fname" required="required">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="lname">Prénom :</label>
+								</td>
+								<td>
+									<input type="text" name="lname" id="lname" required="required">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="sexe">Civilité :</label>
+								</td>
+								<td>
+									<input type="radio" name="sexe" id="sexe" value="male" checked="checked">
+									M. 
+									<input type="radio" name="sexe" id="sexe" value="female">Mme. 
+									<input type="radio" name="sexe" id="sexe" value="other">Autre
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="email">Mail :</label>
+								</td>
+								<td>
+									<input type="email" name="email" id="email" required="required">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="type">Type de Commentaire :</label>
+								</td>
+								<td>
+									<select name="type" id="type">
+										<option value="none">--Select--</option>
+										<option value="question">Question</option>
+										<option value="signalement">Signalement</option>
+										<option value="proposition">Proposition d'amélioration</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="comment">Commentaire(s) :</label>
+								</td>
+								<td>
+									<textarea name="comment" id="comment"></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<input type="button" name="submit" id="submit" value="Envoyer">
+									<input type="reset" name="reset" id="reset" value="Effacer">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+			</fieldset>
+		<!-- IMAGE D'ILLUSTRATION -->
+		<aside class="illustration-container">
+			<img class="illustration" src="../media/img/undraw_wall_post_83ul.svg" alt="illustration from undraw"></img>
+		</aside>
+		</section>
+		<!-- PIED DE PAGE -->
+		<footer class="flex flex-footer">
+			<div class="foot foot-about">
+				<h3>A propos de moi...</h3>
+				<p>
+					Etudiant en licence informatique, je me passionne pour ce domaine depuis mon arrivée au collège !<br>
+					C'est à présent l'occasion d'en apprendre davantage, d'autant que j'ai pu intégrer le CMI Info (cursus master en ingénieurie) de l'URCA. <br>
+					<br>
+					Bonne visite sur mon site !
+				</p>
+				<hr>
+				<p style="text-align: right; font-weight: bold;">
+					Corentin MACHET
+				</p>
+			</div>
+			<div class="foot foot-plan">
+				<h3 id="plan">Plan du site</h3>
+				<ul>
+					<li>
+						<h4><a href="../index.html">Accueil</a></h4>
+					</li>
+					<li>
+						<h4><a href="#" class="forbidden" data-tooltip="Fonctionnalité Indisponible">Se connecter</a></h4>
+					</li>
+					<li>
+						<h4><a href="signup.html">S'inscrire</a></h4>
+					</li>
+					<li>
+						<h4><a href="../bin/consignes/Projet (1).pdf" download>Télécharger les consignes</a></h4>
+					</li>
+					<li>
+						<h4>Mes TPs</h4>
+						<ol>
+							<li><a href="frame-tp001.html" target="_blank">TP001 </a></li>
+							<li><a href="frame-tp002.html" target="_blank">TP002 </a></li>
+							<li><a href="frame-tp003.html" target="_blank">TP003 </a></li>
+						</ol>					
+					</li>
+					<li>
+						<h4>Les Métiers du Ciné</h4>
+						<ol>
+							<li><a href="content.html">Conception</a></li>
+							<li><a href="content.html">Réalisation</a></li>
+							<li><a href="content.html">Acteurs</a></li>
+							<li><a href="content.html">Equipe Technique</a></li>
+							<li><a href="content.html">Montage</a></li>
+						</ol>					
+					</li>
+				</ul>
+			</div>
+			<div class="foot foot-mentions">
+				<h3 id="mentions">Mentions</h3>
+				<p>
+					Ce site est un travail à but pédagogique, proposé dans le cadre du module INFO0102 de l'URCA (Université de Reims Champagne-Ardenne).
+				</p>
+				<hr>
+				<p>
+					Merci de respecter ce travail.
+				</p>
+			</div>
+			<div class="foot foot-comment">
+				<h3>Laissez un commentaire !</h3>
+				<p>
+					Cliquez ci-dessous pour accéder à la page suivante. Un formulaire vous y attend pour me faire un retour quant à ce site !
+				</p>
+				<div class="comment-container">
+					ICI
+				</div>
+			</div>
+			<div id="copyright" data-tooltip="All Rights Reserved">Copyright - 2020</div>
+		</footer>
+		<!-- FIN DE PAGE -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/bkAnimation.js"></script>
+		<script type="text/javascript" src="../js/navAnimation.js"></script>
+		<script type="text/javascript" src="../js/commentaire.js"></script>
+	</body>
+</html>
+<!-- end // Commentaire -->

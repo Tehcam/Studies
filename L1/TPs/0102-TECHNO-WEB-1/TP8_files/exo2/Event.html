@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Evenement en JS -->
+
+<html lang="fr">
+	<head>
+		<title>Evenement en JS</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			*
+			{
+				margin: 0;
+				padding: 0;
+			}
+			html, body
+			{
+				height: 100%;
+			}
+			html, body, header, section
+			{
+				width: 100%;
+			}
+			header
+			{
+				height: 10%;
+				text-align: center;
+			}
+			h1
+			{
+				position: relative;
+				top: 50%;
+			}
+			section
+			{
+				height: 90%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			div.button
+			{
+				border: solid 2px black;
+				padding: 15px;
+			}
+			div.button:hover
+			{
+				cursor: pointer;
+				background: grey;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Voici un titre qui change dynamiquement</h1>
+		</header>
+		<section class="container">
+			<div class="button">
+				Un joli bouton !
+			</div>
+		</section>
+		<script type="text/javascript">
+			document.querySelector('.button').addEventListener('click', function(){
+				document.querySelector('h1').style = "color:red;";
+			});
+		</script>
+	</body>
+</html>
+<!-- end // Evenement en JS -->

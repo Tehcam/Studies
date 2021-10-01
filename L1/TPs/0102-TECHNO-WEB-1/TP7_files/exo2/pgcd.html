@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- Pgcd -->
+
+<html lang="fr">
+	<head>
+		<title>Pgcd</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Sprod-CMachet">
+		<style type="text/css">
+			form input, form label{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<h3>PGCD :</h3>
+			<input type="number" id="A" required>
+			<label for="A">Entrez un entier</label>
+			<input type="number" id="B" required>
+			<label for="B">Entrez un entier</label>
+			<input type="button" id="submit" value="Calculer">
+		</form>
+		<p>
+			<!-- resultat -->
+		</p>
+		<script type="text/javascript">
+			var form = document.querySelector("#submit");
+			var result = document.querySelector("p");
+
+			form.addEventListener('click', function()
+			{
+				var a = document.querySelector("#A").value;
+				var b = document.querySelector("#B").value;
+				var r;
+
+				while(a%b != 0)
+				{
+					r = a%b;
+					a = b;
+					b = r;
+				}
+
+				result.innerHTML = "Résultat : " + b;
+			});
+		</script>
+	</body>
+</html>
+<!-- end // Pgcd -->

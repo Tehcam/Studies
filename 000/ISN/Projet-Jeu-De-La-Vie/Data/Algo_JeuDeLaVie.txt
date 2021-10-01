@@ -1,0 +1,154 @@
+/****************************************/
+//                                      //
+//	JEU DE LA VIE - ISN 2020			//
+//	Corentin Machet						//
+//										//
+/****************************************/
+
+// INITIALISATION
+
+OuvrirConsole(); 						// il faudra donner les règles ici
+Y = Nb_Ligne = 10;
+X = Nb_Colone = 10;						// pour la version alpha, fixer la grille à 10x10
+C = Côté = 30px;
+H = Hauteur_Fenêtre = Y*(C+1);  		// '+1' pour rendre les bords de la grille visibles
+L = Largeur_Fenêtre = X*(C+1);  		// Idem
+Def = H*L;
+
+Créer un objet 'Point' : Point(x, y){	// x et y sont les coordonnées du point en px
+
+	Presence = 0; 						// 0 ou 1 selon si le point existe ou pas (c'est à dire, si la case est
+										// noire ou non)
+
+	// Associer des voisins (des autres points)
+	Si (x+C+1)<L : 
+		alors Voisin[0] = Point((x+C+1), y);
+	Si (y-C-1)>0 : 
+		alors Voisin[1] = Point(x, (y-C-1));
+	Si (x-C-1)>0 :
+		alors Voisin[2] = Point((x-C-1), y);
+	Si (y+C+1)<H : 
+		alors Voisin[3] = Point(x, (y+C+1));
+
+	// Compter le nombre de voisins pour savoir si les conditions sont remplis ou non
+	Pour(i=0, Nb_Voisins = 0; i<4; i++){
+		Si Voisin[i] existe :
+			alors Nb_Voisins += Voisin[i].presence;	// s'il existe une case à cet emplacement, la valeur 0 ou 1 de
+													// presence est ajouté à Nb_Voisins, selon si le point existe
+													// ou non
+			sinon Nb_Voisins += 0;
+	}
+
+	// Ajouter une méthode pour colorier la case en noir (ou blanc)
+	colorier(const Couleur = 0){
+		Pour(j=y; j<(y+C); j++){
+			Pour(k=x; k<(x+C); k++){
+				Pixel[k][j].COLOR(Couleur, Couleur, Couleur);	// Chaque px de coodonnées (k, j) prend la 
+																// valeur 'Couleur' (RGB)
+			}
+		}
+	}
+}
+
+G = Nb_Generation = ?;					// Demander le nombre de génération à exécuter
+
+Créer un tableau de 'Point' Tab_Point[X][Y];
+	// Remplir le tableau avec les valeurs de chaque point
+	Pour(b=0; b<Y; b++){
+		Pour(a=0; a<X; a++){
+			Tab_Point[a][b] = Point((a*(C+1)+1), (b*(C+1)+1));
+		}
+	}
+
+	/************************************************************************/
+	//	REMARQUE :															//
+	//	Pour mieux comprendre, il faut imaginer un repère					//
+	//	d'abscisse X et d'ordonnée Y, qui représente la fenêtre.			//
+	//	L'unité sur l'axe X est a. L'unité sur l'axe Y est b.				//
+	//	Donc a et b sont les coordonnées de la case sur la grille !			//
+	//	Cependant, on a fixer le côté d'une case à C=30px. 					//
+	//	Alors 1a = 30px et 1b = 30px, et ainsi de suite.					//
+	//	D'où le même repère en Pixel d'abscisse x et d'ordonnée				//
+	//	y, avec k l'unité sur l'axe x, et j l'unité sur l'axe y.			//
+	//																		//
+	//	C'est pourquoi, dans l'instruction ci-dessus, on a:					//
+	//	k = a*(C+1)+1		en comptant la marge de la grille				//
+	//	j = b*(C+1)+1		Idem                                   			//
+	/************************************************************************/
+
+
+// TRAITEMENT
+// PARTIE A : sélection de la situation de départ
+
+OuvrirFenêtreGraphique(L, H);
+// Afficher la grille :
+	// 1- Afficher les colones
+	Pour(j=0, k=C; j<H; j++){
+		Tant que k<L : 
+		Pixel[k][j].COLOR(0, 0, 0);
+		k += C+1;
+	}
+	// 2- Afficher les lignes
+	Pour(k=0, j=C; k<L; k++){
+		Tant que j<H : 
+		Pixel[k][j].COLOR(0, 0, 0);
+		j += C+1;
+	}
+
+Quand la souris clique dans la fenêtre :
+	Obtenir Coord_Souris(w, z); 			// avec w et z en px
+	Case_Loc_x = w-(w%(C+1));				// Dans cette variable, on conserve la position x (en px)
+											// de la case dans laquelle on a cliqué : c'est à dire
+											// l'abscisse du pixel supérieur gauche de la case
+	Case_Loc_y = z-(z%(C+1));				// Idem pour l'ordonnée
+	Tab_Loc_a = (Case_Loc_x -1)/(C+1);		// La position de la case est associé à son numéro de 
+											// case a, utilisé dans Tab_Point
+	Tab_Loc_b = (Case_Loc_y -1)/(C+1)		// Idem pour b
+	Tab_Point[Tab_Loc_a][Tab_Loc_b].colorier();		// A partir des coordonnées a et b précédente, 
+													// on colore en noir la case sélectionnée initialement
+	Tab_Point[Tab_Loc_a][Tab_Loc_b].presence = 1;	// Comme la case est colorée en noir, on signifie 
+													// sa présence
+
+// On continue tant que l'utilisateur souhaite sélectionner des cases
+Si l'utilisateur presse ENTER : alors continuer;
+
+
+// PARTIE B : exécution
+
+Pour(g=0; g<G; g++){					// Répéter pour chaque génération
+
+	// D'abord, colorer les cases selon les conditions indiquées
+	Pour(b=0; b<Y; b++){
+		Pour(a=0; a<X; a++){
+			Si Tab_Point[a][b].Nb_Voisins = 2 : 
+				alors Tab_Point[a][b].colorier();		// Colore en noir
+				sinon Tab_Point[a][b].colorier(255);	// Colore en blanc
+		}
+	}
+
+	// Ensuite, associer chaque case désormais noire à la valeur presence=1
+	Pour(a=0, b=0, k=0, j=0; (a<X) OU (b<Y);){
+		Tant que j<H :
+			k=0;
+			a=0;
+			Tant que k<L :
+				Si Pixel[k][j] est noir :
+					alors Tab_Point[a][b].presence = 1;	// si le pixel en haut à gauche d'une case est noir,
+														// alors cette case est noir et le point est bel
+														// et bien présent.
+					sinon Tab_Point[a][b]. presence = 0;	// Et inversement.
+				k += C+1;
+				a++;
+			j += C+1;
+			b++;
+		Si (a>X) OU (b>Y) :				// Dans ce cas il y a une erreur
+			alors FermerFenêtreGraphique();
+			      Alert('erreur');
+			      Return 0;				// Fin du programme
+	}
+}  // g=G : le nombre de générations est atteint
+
+// FIN D'EXECUTION
+Ne pas fermer le programme tant qu'un bouton n'est pas pressé;
+QUIT();
+Return 0;								// Fin du programme

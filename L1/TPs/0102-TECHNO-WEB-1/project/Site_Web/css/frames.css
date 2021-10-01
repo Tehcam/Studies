@@ -1,0 +1,61 @@
+:root
+{
+	font-size: 60%;
+	--bkcolor: rgb(30, 30, 45);
+	--title-color: white;
+	--shadow-color: black;
+	--before-display: initial;
+}
+
+html, html:before
+{
+	height: 100vh;
+	width: 100vw;
+	font-family: "Verdana", sans-serif;
+	background: var(--bkcolor);
+}
+
+html, html:before, body
+{
+	margin: 0 5px 0 0;
+	padding: 0;
+}
+
+body
+{
+	height: 100%;
+	width: 100%;
+}
+
+html:before
+{
+	content: ' ';
+	display: var(--before-display);
+	background: radial-gradient(circle at var(--x) var(--y), transparent 5%, rgba(0, 0, 0, .5) 30%);
+	position: fixed;
+	z-index: -1;
+}
+
+.flex.container
+{
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+}
+
+.flex.container a
+{
+	color: var(--title-color);
+	text-decoration: none;	
+}
+
+.flex.container a:hover
+{
+	text-decoration: underline;
+}
+
+.flex.container iframe
+{
+	width: 90%;
+	height: 90%;
+}

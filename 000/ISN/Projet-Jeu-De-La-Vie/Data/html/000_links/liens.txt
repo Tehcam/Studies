@@ -1,0 +1,11 @@
+
+The WINBGIM Library -- Version 6.0 -- August 9, 2004
+Borland BGI Graphics and Mouse For Windows Applications 
+
+#############################################################
+
+https://www.cs.colorado.edu/~main/bgi/doc/
+
+https://www.cs.colorado.edu/~main/cs1300/doc/bgi/bgi.html
+
+#############################################################

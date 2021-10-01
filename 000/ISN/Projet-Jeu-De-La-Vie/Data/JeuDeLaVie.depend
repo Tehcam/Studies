@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1586822100 source:c:\users\corentin\desktop\projet\main.cpp
+	<iostream>
+	<graphics.h>
+	"head.h"
+
+1266094214 c:\program files (x86)\codeblocks-ep\sdk\winbgim\include\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1586628141 c:\users\corentin\desktop\projet\head.h
+
+1587901987 source:c:\users\corentin\desktop\private\isn\projet_bac\main.cpp
+	<iostream>
+	<graphics.h>
+	"head.h"
+
+1587901484 c:\users\corentin\desktop\private\isn\projet_bac\head.h
+
+1588446395 source:c:\users\corentin\desktop\private\isn\projet_bac\data\main.cpp
+	<iostream>
+	<graphics.h>
+	"head.h"
+
+1588446595 c:\users\corentin\desktop\private\isn\projet_bac\data\head.h
+	<iostream>
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<!-- metadata -->
+<head>
+	<title>MyWebPage</title>
+	<meta charset="utf-8" name="MyWebPage/login">
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+
+
+<!-- webdata -->
+<body>
+<!-- entête -->
+	<header id="header_1">
+		<span id="img_container"><img src="home_icon.ico" alt="Home/Accueil" class="image" id="homeimg"></span>
+	</header>
+	<header id="header_2">
+		<div id="titres_container">
+			<h1 class="titres" id="titre">MyWebPage</h1>
+			<h2 class="titres" id="sous-titre">Mon test de création multi-langage</h2>
+		</div>
+	</header>
+<!-- contenu -->
+	<section class="no_div" id="section_1">
+		<img src="avatar_icon.ico" alt="avatar" class="image" id="avatarimg">
+		<p class="text" id="msg_from_admin">
+			<!-- texte de bienvue -->
+			Ceci est mon premier test de pr&eacute;sentation !
+		</p>
+	</section>
+<!-- login fakebox -->
+	<nav class="no_div" id="login_area">
+		<div id="login">
+		<p class="text" id="text_fakebox">LOGIN : entrez votre identifiant.</p>
+<!-- in box -->
+			<div>
+				<label>
+					<input type="password" name="identifiant" class="fakebox" id="password" value="password">
+					<script type="text/javascript">
+						// affiche du texte transparent dans la fakbox
+						var pw = document.getElementById('password');
+						if(pw.value === 'password'){
+							pw.type = 'text';
+						}
+						pw.onclick = function(){
+							pw.value = '';
+							pw.type = 'password';
+						}
+
+					</script>
+				</label>
+				<input type="button" name="check" class="check_button" value="Check Here">
+			</div>
+<!-- if new user -->
+		<a href="#" class="a"><p class="text" id="no_id">Vous &ecirc;tes nouveau ?<br>Click here !</p></a>
+		</div>
+	</nav>
+<!-- pied -->
+	<footer class="no_div" id="footer">
+		<!-- no footer -->
+	</footer>
+<!-- JavaScript -->
+	<script type="text/javascript" src="login.js"></script>
+</body>
+
+<!-- coding by SEN -->
+</html>

@@ -1,0 +1,977 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"he",
+				"href"
+			],
+			[
+				"bk",
+				"background-color\tproperty"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"pa",
+				"padding-bottom\tproperty"
+			],
+			[
+				"rgb",
+				"rgb()\tcolor"
+			],
+			[
+				"al",
+				"align-self\tproperty"
+			],
+			[
+				"bord",
+				"border-radius\tproperty"
+			],
+			[
+				"rb",
+				"rgb()\tcolor"
+			],
+			[
+				"dec",
+				"text-decoration\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"boo",
+				"bottom\tproperty"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"border-bo",
+				"border-bottom-right-radius\tproperty"
+			],
+			[
+				"border",
+				"border-right\tproperty"
+			],
+			[
+				"border-to",
+				"border-top-right-radius\tproperty"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"marg",
+				"margin-left\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"shad",
+				"text-shadow\tproperty"
+			],
+			[
+				"fol",
+				"follow_symlinks"
+			],
+			[
+				"ming",
+				"mingw32-g"
+			],
+			[
+				"ti",
+				"title_presentation"
+			],
+			[
+				"icon",
+				"icon_parameters"
+			],
+			[
+				"wih",
+				"width"
+			],
+			[
+				"rg",
+				"rgba()\tborder"
+			],
+			[
+				"paddi",
+				"padding-bottom\tproperty"
+			],
+			[
+				"i",
+				"ico"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"alo",
+				"algorithme"
+			],
+			[
+				"border-top",
+				"border-top-right-radius\tproperty"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"art",
+				"art_algorithme"
+			],
+			[
+				"pre",
+				"presentation"
+			],
+			[
+				"quy",
+				"querySelector"
+			],
+			[
+				"algo",
+				"algorithme_button"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"A",
+				"Awn"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"h",
+				"h3\tTag"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"bo",
+				"box-shadow\tproperty"
+			],
+			[
+				"005_Beck",
+				"005_BeckRobin_css1"
+			],
+			[
+				"005_be",
+				"005_BeckRobin_css1"
+			],
+			[
+				"s",
+				"span\tTag"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"border-ra",
+				"border-bottom-right-radius\tproperty"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"ma",
+				"margin-bottom\tproperty"
+			],
+			[
+				"005_in",
+				"005_index"
+			],
+			[
+				"005_inde",
+				"005_index_css_1"
+			],
+			[
+				"im",
+				"img_rob"
+			],
+			[
+				"qu",
+				"querySelector"
+			],
+			[
+				"menu",
+				"menuDuSite_1"
+			],
+			[
+				"query",
+				"querySelector"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"D",
+				"DecToBin"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"fon",
+				"font-family\tproperty"
+			],
+			[
+				"padi",
+				"padding\tproperty"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"html",
+				"html_005"
+			],
+			[
+				"it",
+				"itElement"
+			],
+			[
+				"style",
+				"styleElement"
+			],
+			[
+				"id",
+				"idElement"
+			],
+			[
+				"quey",
+				"querySelector"
+			],
+			[
+				"css",
+				"css_005"
+			],
+			[
+				"sc",
+				"scrollbar"
+			],
+			[
+				"hei",
+				"height\tproperty"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"over",
+				"overflow-y\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"bod",
+				"border-radius\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"blo",
+				"block\tdisplay"
+			],
+			[
+				"border-co",
+				"border-color\tproperty"
+			],
+			[
+				"coren",
+				"corentin_content"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"sha",
+				"text-shadow\tproperty"
+			],
+			[
+				"hea",
+				"head"
+			],
+			[
+				"f",
+				"font-family\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"co",
+				"corentin_content"
+			],
+			[
+				"core",
+				"corentin_content"
+			],
+			[
+				"user",
+				"user_low"
+			],
+			[
+				"de",
+				"deconnexion"
+			],
+			[
+				"us",
+				"user_name"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"use",
+				"user_pwd"
+			],
+			[
+				"pwd",
+				"pwd_low"
+			],
+			[
+				"pw",
+				"pwd_low"
+			],
+			[
+				"is_n",
+				"is_numeric"
+			],
+			[
+				"ht",
+				"htmlspecialchars"
+			],
+			[
+				"se",
+				"setAttribute"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"let",
+				"left\tproperty"
+			],
+			[
+				"size",
+				"size\tproperty"
+			],
+			[
+				"p",
+				"php\t<?php … ?>"
+			],
+			[
+				"padin",
+				"padding-top\tproperty"
+			],
+			[
+				"ch",
+				"changeParag"
+			],
+			[
+				"cha",
+				"changeTitle"
+			],
+			[
+				"err",
+				"errorMsg"
+			],
+			[
+				"tit",
+				"titleArray"
+			],
+			[
+				"siez",
+				"font-size\tproperty"
+			],
+			[
+				"re",
+				"rep"
+			],
+			[
+				"sp",
+				"span_deconnexion"
+			],
+			[
+				"aut",
+				"autoForm"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"spa",
+				"spanLength"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"php",
+				"phpTitle"
+			],
+			[
+				"set",
+				"set_php"
+			],
+			[
+				"sett",
+				"setting"
+			],
+			[
+				"es",
+				"else"
+			],
+			[
+				"off",
+				"offSetLeft"
+			],
+			[
+				"cl",
+				"clienX"
+			],
+			[
+				"mo",
+				"movingSpan"
+			],
+			[
+				"m",
+				"movingSpan"
+			],
+			[
+				"nb",
+				"nb1"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "presentation.html",
+			"settings":
+			{
+				"buffer_size": 659,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/build/s-cpp.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					"Graphics"
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					"SDL"
+				]
+			],
+			[
+				"Packages/User/build/s-cpp.sublime-build",
+				"SDL"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/cpp/s-cpp.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/cpp/s-cpp.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/cpp/s-cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/cpp/s-cpp.sublime-build",
+					"Graphics"
+				]
+			],
+			[
+				"Packages/User/cpp/s-cpp.sublime-build",
+				"Graphics"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/cpp/s-cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/cpp/s-cpp.sublime-build",
+					"Graphics_1"
+				],
+				[
+					"Packages/User/cpp/s-cpp.sublime-build",
+					"Graphics_2"
+				]
+			],
+			[
+				"Packages/User/cpp/s-cpp.sublime-build",
+				"Graphics_2"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: main()"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 200.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Projet_BAC/Data/html/000_project",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Projet_BAC/Data/html/000_project/css",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Projet_BAC/Data/html/000_project/js"
+	],
+	"file_history":
+	[
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Projet_BAC/Data/html/index_005.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Projet_BAC/Data/html/html_005/005_MachetCorentin.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Projet_BAC/Data/html/html_005/005_BeckRobin.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Projet_BAC/Data/html/jeu_console.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Projet_BAC/Data/html/000_project/css/presentation.css",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Projet_BAC/Data/html/000_project/presentation.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Projet_BAC/Data/html/000_project/bac.sublime-project",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Projet_BAC/OPEN.html",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/carnet_de_bord.html",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/css/index.css",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/css/conclusion.css",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/conclusion.html",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/css/general.css",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/general.html",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/intention.html",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/css/intention.css",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/css/intro.css",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/intro.html",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/js/script.js",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/js/index.js",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/test.html",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/data.sublime-project",
+		"/C/Users/corentin/Desktop/test-sdl/test-sdl.sublime-project",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/projets/s-projet-cpp.sublime-snippet",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/projets/s-projet-html.sublime-snippet",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/build/s-cpp.sublime-build",
+		"/C/Users/corentin/Desktop/test-sdl/main.cpp",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/sdl/sdl/compile.txt",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/sdl/sdl/main.cpp",
+		"/C/Compilers/SDL2_image-2.0.5/Makefile",
+		"/C/Users/corentin/Desktop/test/html.html",
+		"/C/Users/corentin/Desktop/test/test.sublime-project",
+		"/C/Users/corentin/Desktop/test/test3/result.sublime-project",
+		"/C/Users/corentin/Desktop/test/test3/head.h",
+		"/C/Users/corentin/Desktop/test/test3/main.cpp",
+		"/C/Users/corentin/Desktop/test/test1/test1.sublime-project",
+		"/C/Users/corentin/Desktop/test/test1/head.h",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/cpp/s-cpp.sublime-build",
+		"/C/Users/corentin/Desktop/test/head.h",
+		"/C/Users/corentin/Desktop/test/main.cpp",
+		"/C/Users/corentin/Desktop/test.cpp",
+		"/C/Users/corentin/Desktop/test.sprod-chose",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/html/s-html.sublime-snippet",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/cpp/s-lib.sublime-snippet",
+		"/C/Users/corentin/Desktop/projet/main.cpp",
+		"/C/Users/corentin/Desktop/test.php",
+		"/C/Users/corentin/Desktop/test.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/js test/poo_js/poo_js.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/js test/binaire/binaire_vers_decimal.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/js test/distributeur/distributeur.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/js test/drag n drop/drag n drop.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/js test/test/test.html",
+		"/C/wamp64/www/login_php/login.php",
+		"/C/wamp64/www/test_php/test.php",
+		"/C/wamp64/www/poo_php/poo.php",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/js test/mini_jeu/index.html",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Program Files/Sublime Text 3/Packages/Theme - Default.sublime-package",
+		"/C/Users/corentin/Desktop/test.js",
+		"/F/Quarantaine/ISN/Algo_JeuDeLaVie.txt",
+		"/F/Quarantaine/ISN/projet/html/jeu_console.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/test_graphics/test_graphics.cpp",
+		"/C/Program Files (x86)/CodeBlocks/Libgraphics/A_LIRE",
+		"/C/Program Files (x86)/CodeBlocks/Libgraphics/Makefile",
+		"/C/Program Files (x86)/CodeBlocks/Libgraphics/libgraph.h",
+		"/C/Program Files (x86)/CodeBlocks/Libgraphics/image.h",
+		"/C/Users/corentin/Desktop/graphics.h",
+		"/C/Program Files (x86)/CodeBlocks/Libgraphics/libbgi.a",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/js test/poo_js/poo_js.css",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/js test/poo_js/poo_js.js",
+		"/C/Program Files (x86)/CodeBlocks/Libgraphics/graphics.h",
+		"/C/IGG-Undertale.20160309/steam_api.ini",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/sdl/img/affiche_img2/affiche_img2/main.cpp",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/sdl/sdl/obj/Debug/main.o",
+		"/F/MiniProjet2/html/css_005/jeu_console.css",
+		"/F/MiniProjet2/html/jeu_console.html",
+		"/F/MiniProjet2/html/index_005.html",
+		"/F/MiniProjet2/html/css_005/005_index/005_index_css_1.css",
+		"/F/MiniProjet2/jeu_console.html",
+		"/F/MiniProjet2/html/css_005/005_MachetCorentin/005_MachetCorentin_script_1.js",
+		"/F/MiniProjet2/html/html_005/005_mention_legales_footer.html",
+		"/F/MiniProjet2/html/html_005/005_BeckRobin.html",
+		"/F/MiniProjet2/html/html_005/005_MachetCorentin.html",
+		"/F/MiniProjet2/html/html_005/index_005.html",
+		"/C/Users/corentin/Desktop/js test/distributeur/distributeur.js",
+		"/C/Users/corentin/Desktop/js test/distributeur/distributeur.html",
+		"/C/Users/corentin/Desktop/js test/binaire/BinToDec.js",
+		"/C/Users/corentin/Desktop/js test/mini_jeu/js/game.js",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_index/005_index_css_2.css",
+		"/E/ISN/T7S/binaire/BinToDec.js",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_MachetCorentin/005_MachetCorentin_2.css",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/html_005/index_005.html",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_MachetCorentin/005_MachetCorentin_nav_default_2.css",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_MachetCorentin/005_MachetCorentin_nav_default_1.css",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_MachetCorentin/005_MachetCorentin_1.css",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/html_005/005_BeckRobin.html",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/html_005/005_MachetCorentin.html",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_MachetCorentin/005_MachetCorentin_script_1.js",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_BeckRobin/005_BeckRobin_css1.css",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_index/005_index_css_1.css",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_MachetCorentin/005_MachetCorentin_lowerside_1.css",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/html_005/005_mention_legales_footer.html",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_mentions_legales_css.css",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_index/005_nav_vertical_1.css",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_index/005_nav_horizontal_1.css",
+		"/E/ISN/T7S/binaire/decimal_vers_binaire.html",
+		"/E/ISN/T7S/binaire/DecToBin.js",
+		"/E/ISN/T7S/binaire/binaire_vers_decimal.html",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_MachetCorentin/005_MachetCorentin_nav_lowerside_2-2.css",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_MachetCorentin/005_MachetCorentin_nav_lowerside_2-1.css",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_MachetCorentin/005_MachetCorentin_nav_lowerside_2.css",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_MachetCorentin/005_MachetCorentin_nav_lowerside_1.css",
+		"/E/ISN/T7S/Mini projet 1/presentationGp_005/css_005/005_MachetCorentin/005_MachetCorentin_lowerside_2.css",
+		"/C/Users/corentin/Desktop/js test/binaire/binaire_vers_decimal.html",
+		"/C/Users/corentin/Desktop/js test/binaire/decimal_vers_binaire.html",
+		"/E/ISN/T7S/Mini projet 1/005_MachetCorentin/005_MachetCorentin.html",
+		"/C/Users/corentin/Desktop/c++ test/n_termes_isn.cpp",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Base icn/Seconde/EVALUTATION HTML.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Base icn/Seconde/autre/index test1.html",
+		"/E/ISN/T7S/Mini projet/page_web_cv/corentin.html",
+		"/E/ISN/T7S/Mini projet/page_web_cv/corentin_content/corentin.css",
+		"/E/ISN/T7S/Mini projet/page_web_cv/corentin_content/nav_default.css",
+		"/E/ISN/T7S/Mini projet/page_web_cv/corentin_content/nav.css",
+		"/E/ISN/T7S/Mini projet/page_web_cv/corentin_content/corentin.js",
+		"/C/wamp64/www/poo_php/setting/login2.js",
+		"/C/wamp64/www/poo_php/setting/login.js",
+		"/C/wamp64/www/poo_php/poo2.php",
+		"/C/wamp64/www/poo_php/.htaccess"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"eation",
+			"\n\t\t\t",
+			"\t\t\t</",
+			"\t\t\t\t",
+			"Ceci"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "presentation.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 132.0
+	},
+	"output.find_results":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "bac.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\corentin\\Desktop\\test\\test.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

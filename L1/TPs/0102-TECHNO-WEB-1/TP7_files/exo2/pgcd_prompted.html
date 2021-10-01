@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- Pgcd -->
+
+<html lang="fr">
+	<head>
+		<title>Pgcd</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Sprod-CMachet">
+	</head>
+	<body>
+		<script type="text/javascript">
+			(function()
+			{
+				var a = parseInt(prompt("Entrez un première valeur :"));
+				var b = parseInt(prompt("Entrez une seconde valeur :"));
+				var r;
+
+				while(a%b != 0)
+				{
+					r = a%b;
+					a = b;
+					b = r;
+				}
+
+				document.write("Le PGCD de ces deux valeurs est " + b);
+			})();
+		</script>
+	</body>
+</html>

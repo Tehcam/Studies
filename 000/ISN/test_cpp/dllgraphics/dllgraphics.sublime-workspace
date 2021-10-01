@@ -1,0 +1,1241 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"W",
+				"WindowClass_DLL"
+			],
+			[
+				"Win",
+				"Window"
+			],
+			[
+				"ed",
+				"endOfProg"
+			],
+			[
+				"if",
+				"ifstream"
+			],
+			[
+				"li",
+				"libc\ts-lib-c"
+			],
+			[
+				"c",
+				"c_str"
+			],
+			[
+				"out",
+				"outchar"
+			],
+			[
+				"_",
+				"_BLACK"
+			],
+			[
+				"color",
+				"COLOR"
+			],
+			[
+				"m_",
+				"m_color"
+			],
+			[
+				"def",
+				"defbgcolor"
+			],
+			[
+				"Co",
+				"COLOR"
+			],
+			[
+				"class",
+				"class\ts-class"
+			],
+			[
+				"Dur",
+				"DureeClass_DLL"
+			],
+			[
+				"end",
+				"endOfProg"
+			],
+			[
+				"dure",
+				"DureeClass_DLL"
+			],
+			[
+				"dur",
+				"DureeClass_DLL"
+			],
+			[
+				"file",
+				"file_path"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"m",
+				"m_min"
+			],
+			[
+				"res",
+				"rest_min"
+			],
+			[
+				"cla",
+				"class\ts-class"
+			],
+			[
+				"len",
+				"LENGTHOF_LIST"
+			],
+			[
+				"Cha",
+				"CHAROF_LIST"
+			],
+			[
+				"en",
+				"endl"
+			],
+			[
+				"nam",
+				"name"
+			],
+			[
+				"reg",
+				"regex"
+			],
+			[
+				"rege",
+				"regex"
+			],
+			[
+				"lib",
+				"libc\ts-lib-c"
+			],
+			[
+				"fr",
+				"fromAscii"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"convi",
+				"convint"
+			],
+			[
+				"regex",
+				"regex_match"
+			],
+			[
+				"conv",
+				"convinfo"
+			],
+			[
+				"con",
+				"convdouble"
+			],
+			[
+				"err",
+				"errorReturned"
+			],
+			[
+				"ve",
+				"vector\tstandard header"
+			],
+			[
+				"bad",
+				"bad_ssi"
+			],
+			[
+				"bad_",
+				"bad_isi"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"lent",
+				"lengthOf"
+			],
+			[
+				"in",
+				"index_a"
+			],
+			[
+				"cal",
+				"calculate"
+			],
+			[
+				"pa",
+				"padding-bottom\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"rgb",
+				"rgb()\tcolor"
+			],
+			[
+				"al",
+				"align-self\tproperty"
+			],
+			[
+				"bord",
+				"border-radius\tproperty"
+			],
+			[
+				"rb",
+				"rgb()\tcolor"
+			],
+			[
+				"dec",
+				"text-decoration\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"boo",
+				"bottom\tproperty"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"border-bo",
+				"border-bottom-right-radius\tproperty"
+			],
+			[
+				"border",
+				"border-right\tproperty"
+			],
+			[
+				"border-to",
+				"border-top-right-radius\tproperty"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"marg",
+				"margin-left\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"shad",
+				"text-shadow\tproperty"
+			],
+			[
+				"fol",
+				"follow_symlinks"
+			],
+			[
+				"ming",
+				"mingw32-g"
+			],
+			[
+				"icon",
+				"icon_parameters"
+			],
+			[
+				"wih",
+				"width"
+			],
+			[
+				"rg",
+				"rgba()\tborder"
+			],
+			[
+				"paddi",
+				"padding-bottom\tproperty"
+			],
+			[
+				"i",
+				"ico"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"alo",
+				"algorithme"
+			],
+			[
+				"border-top",
+				"border-top-right-radius\tproperty"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"art",
+				"art_algorithme"
+			],
+			[
+				"pre",
+				"presentation"
+			],
+			[
+				"quy",
+				"querySelector"
+			],
+			[
+				"algo",
+				"algorithme_button"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"A",
+				"Awn"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"h",
+				"h3\tTag"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"bo",
+				"box-shadow\tproperty"
+			],
+			[
+				"005_Beck",
+				"005_BeckRobin_css1"
+			],
+			[
+				"005_be",
+				"005_BeckRobin_css1"
+			],
+			[
+				"s",
+				"span\tTag"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"border-ra",
+				"border-bottom-right-radius\tproperty"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"ma",
+				"margin-bottom\tproperty"
+			],
+			[
+				"005_in",
+				"005_index"
+			],
+			[
+				"005_inde",
+				"005_index_css_1"
+			],
+			[
+				"im",
+				"img_rob"
+			],
+			[
+				"qu",
+				"querySelector"
+			],
+			[
+				"menu",
+				"menuDuSite_1"
+			],
+			[
+				"query",
+				"querySelector"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"D",
+				"DecToBin"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"fon",
+				"font-family\tproperty"
+			],
+			[
+				"padi",
+				"padding\tproperty"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"html",
+				"html_005"
+			],
+			[
+				"it",
+				"itElement"
+			],
+			[
+				"style",
+				"styleElement"
+			],
+			[
+				"id",
+				"idElement"
+			],
+			[
+				"quey",
+				"querySelector"
+			],
+			[
+				"css",
+				"css_005"
+			],
+			[
+				"sc",
+				"scrollbar"
+			],
+			[
+				"hei",
+				"height\tproperty"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"over",
+				"overflow-y\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"bod",
+				"border-radius\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"blo",
+				"block\tdisplay"
+			],
+			[
+				"border-co",
+				"border-color\tproperty"
+			],
+			[
+				"coren",
+				"corentin_content"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"sha",
+				"text-shadow\tproperty"
+			],
+			[
+				"hea",
+				"head"
+			],
+			[
+				"f",
+				"font-family\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "header/src/Window.cpp",
+			"settings":
+			{
+				"buffer_size": 1054,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "header/inc/Window.h",
+			"settings":
+			{
+				"buffer_size": 593,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "call.cpp",
+			"settings":
+			{
+				"buffer_size": 275,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/build/modifiable.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/build/modifiable.sublime-build",
+					""
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					"MinGW"
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					"Graphics"
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					"SDL"
+				],
+				[
+					"Packages/User/build/s-dll.sublime-build",
+					""
+				],
+				[
+					"Packages/User/build/s-dll.sublime-build",
+					"Static"
+				],
+				[
+					"Packages/User/build/s-dll.sublime-build",
+					"Dynamic"
+				]
+			],
+			[
+				"Packages/User/build/modifiable.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					"Graphics"
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					"SDL"
+				]
+			],
+			[
+				"Packages/User/build/s-cpp.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					"MinGW"
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					"Graphics"
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					"SDL"
+				]
+			],
+			[
+				"Packages/User/build/s-cpp.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					"MinGW"
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					"Graphics"
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					"SDL"
+				],
+				[
+					"Packages/User/build/s-dll.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/build/s-cpp.sublime-build",
+				"MinGW"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					"MinGW"
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					"Graphics"
+				],
+				[
+					"Packages/User/build/s-cpp.sublime-build",
+					"SDL"
+				],
+				[
+					"Packages/User/build/s-dll.sublime-build",
+					""
+				],
+				[
+					"Packages/User/build/s-dll.sublime-build",
+					"Static"
+				],
+				[
+					"Packages/User/build/s-dll.sublime-build",
+					"Dynamic"
+				]
+			],
+			[
+				"Packages/User/build/s-cpp.sublime-build",
+				"Graphics"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/cpp/s-cpp.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/cpp/s-cpp.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/cpp/s-cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/cpp/s-cpp.sublime-build",
+					"Graphics"
+				]
+			],
+			[
+				"Packages/User/cpp/s-cpp.sublime-build",
+				"Graphics"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/cpp/s-cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/cpp/s-cpp.sublime-build",
+					"Graphics_1"
+				],
+				[
+					"Packages/User/cpp/s-cpp.sublime-build",
+					"Graphics_2"
+				]
+			],
+			[
+				"Packages/User/cpp/s-cpp.sublime-build",
+				"Graphics_2"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/build/s-python.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/build/s-python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: main()"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 291.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/dllgraphics/bin",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/dllgraphics/obj",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/dllgraphics/content",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/dllgraphics/header",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/dllgraphics/header/inc",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/dllgraphics/header/lib",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/dllgraphics/header/src"
+	],
+	"file_history":
+	[
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/build/s-cpp.sublime-build",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/build/modifiable.sublime-build",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/build/s-dll.sublime-build",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/dllgraphics/main.cpp",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/learn-dll2/main.cpp",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/test3_graphics/test3_graphics.cpp",
+		"/C/Compilers/MinGW-graphics/winbgim/lib/libbgi.a",
+		"/C/Compilers/MinGW-graphics/include/graphics.h",
+		"/C/Compilers/MinGW-graphics/winbgim/include/winbgim.h",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/learn-dll/header/Duree.h",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/dllgraphics/dllgraphics.sublime-project",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/test-build/main.cpp",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/test-build/build.sublime-project",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/learn-dll2/Duree.h",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/learn-dll2/Duree.cpp",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/learn-dll2/header/Duree.cpp",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/learn-dll2/learn-dll2.sublime-project",
+		"/C/Compilers/SDL/sdl2-config",
+		"/C/Compilers/SDL/SDL2.dll",
+		"/C/Compilers/SDL/zlib1.dll",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/learn-dll/Duree.cpp",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/learn-dll/main.cpp",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/snippets/cpp/s-lib-c.sublime-snippet",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/snippets/cpp/s-class.sublime-snippet",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/learn-dll/call.cpp",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/learn-dll/test.dll",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/sdl/sdl/bin/Debug/sdl2-config",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/sdl/sdl/bin/Debug/SDL2.dll",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/projets/s-projet-cpp.sublime-snippet",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/learn-dll/learndll.sublime-project",
+		"/C/Compilers/MinGW/include/convstr.h",
+		"/C/Users/corentin/Desktop/test.cpp",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/build/s-python.sublime-build",
+		"/C/Users/corentin/Desktop/test.py",
+		"/C/Users/corentin/Desktop/testinclude.cpp",
+		"/C/Users/corentin/Desktop/convstr.h",
+		"/C/Users/corentin/Desktop/new include/header/convstr.h",
+		"/C/Users/corentin/Desktop/new include/newinclude.cpp",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/new include/newinclude.sublime-project",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/new include/newinclude.cpp",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/new include/convstr.h",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/ternaire/ternaire.cpp",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/snippets/cpp/s-lib-h.sublime-snippet",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/snippets/cpp/s-lib.sublime-snippet",
+		"/C/Users/corentin/Desktop/a.cpp",
+		"/C/Users/corentin/Desktop/ternaire/ternaire.cpp",
+		"/C/Users/corentin/Desktop/ternaire.cpp",
+		"/C/Users/corentin/Desktop/ternaire.py",
+		"/G/LangDeProgram/DATA/css/index.css",
+		"/G/LangDeProgram/DATA/index.php",
+		"/G/LangDeProgram/DATA/login.php",
+		"/G/LangDeProgram/DATA/desktop.php",
+		"/G/LangDeProgram/DATA/css/desktop.css",
+		"/G/LangDeProgram/DATA/js/script.js",
+		"/G/LangDeProgram/DATA/css/login.css",
+		"/G/Les Langages de Programmations/index.php",
+		"/G/Les Langages de Programmations/login.php",
+		"/G/Les Langages de Programmations/desktop.php",
+		"/G/Les Langages de Programmations/data.sublime-project",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/calculate/header/main.h",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/calculate/header/multiple.h",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/calculate/main.cpp",
+		"/C/Users/corentin/Desktop/main/main.sublime-project",
+		"/C/Users/corentin/Desktop/main.cpp",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/js/index.js",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/css/index.css",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/carnet_de_bord.html",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/test.html",
+		"/C/Users/corentin/Desktop/Carnet de Bord/presentation/Data/data.sublime-project",
+		"/C/Users/corentin/Desktop/test-sdl/test-sdl.sublime-project",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/projets/s-projet-html.sublime-snippet",
+		"/C/Users/corentin/Desktop/test-sdl/main.cpp",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/sdl/sdl/compile.txt",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/sdl/sdl/main.cpp",
+		"/C/Compilers/SDL2_image-2.0.5/Makefile",
+		"/C/Users/corentin/Desktop/test/html.html",
+		"/C/Users/corentin/Desktop/test/test.sublime-project",
+		"/C/Users/corentin/Desktop/test/test3/result.sublime-project",
+		"/C/Users/corentin/Desktop/test/test3/head.h",
+		"/C/Users/corentin/Desktop/test/test3/main.cpp",
+		"/C/Users/corentin/Desktop/test/test1/test1.sublime-project",
+		"/C/Users/corentin/Desktop/test/test1/head.h",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/cpp/s-cpp.sublime-build",
+		"/C/Users/corentin/Desktop/test/head.h",
+		"/C/Users/corentin/Desktop/test/main.cpp",
+		"/C/Users/corentin/Desktop/test.sprod-chose",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/html/s-html.sublime-snippet",
+		"/C/Users/corentin/AppData/Roaming/Sublime Text 3/Packages/User/cpp/s-lib.sublime-snippet",
+		"/C/Users/corentin/Desktop/projet/main.cpp",
+		"/C/Users/corentin/Desktop/test.php",
+		"/C/Users/corentin/Desktop/test.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/js test/poo_js/poo_js.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/js test/binaire/binaire_vers_decimal.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/js test/distributeur/distributeur.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/js test/drag n drop/drag n drop.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/js test/test/test.html",
+		"/C/wamp64/www/login_php/login.php",
+		"/C/wamp64/www/test_php/test.php",
+		"/C/wamp64/www/poo_php/poo.php",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/js test/mini_jeu/index.html",
+		"/C/Program Files/Sublime Text 3/Packages/Theme - Default.sublime-package",
+		"/C/Users/corentin/Desktop/test.js",
+		"/F/Quarantaine/ISN/Algo_JeuDeLaVie.txt",
+		"/F/Quarantaine/ISN/projet/html/jeu_console.html",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/test_graphics/test_graphics.cpp",
+		"/C/Program Files (x86)/CodeBlocks/Libgraphics/A_LIRE",
+		"/C/Program Files (x86)/CodeBlocks/Libgraphics/Makefile",
+		"/C/Program Files (x86)/CodeBlocks/Libgraphics/libgraph.h",
+		"/C/Program Files (x86)/CodeBlocks/Libgraphics/image.h",
+		"/C/Users/corentin/Desktop/graphics.h",
+		"/C/Program Files (x86)/CodeBlocks/Libgraphics/libbgi.a",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/js test/poo_js/poo_js.css",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/js test/poo_js/poo_js.js",
+		"/C/Program Files (x86)/CodeBlocks/Libgraphics/graphics.h",
+		"/C/IGG-Undertale.20160309/steam_api.ini",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/sdl/img/affiche_img2/affiche_img2/main.cpp",
+		"/C/Users/corentin/Desktop/PRIVATE/ISN/Test/c++ test/sdl/sdl/obj/Debug/main.o",
+		"/F/MiniProjet2/html/css_005/jeu_console.css",
+		"/F/MiniProjet2/html/jeu_console.html",
+		"/F/MiniProjet2/html/index_005.html",
+		"/F/MiniProjet2/html/css_005/005_index/005_index_css_1.css",
+		"/F/MiniProjet2/jeu_console.html",
+		"/F/MiniProjet2/html/css_005/005_MachetCorentin/005_MachetCorentin_script_1.js",
+		"/F/MiniProjet2/html/html_005/005_mention_legales_footer.html",
+		"/F/MiniProjet2/html/html_005/005_BeckRobin.html",
+		"/F/MiniProjet2/html/html_005/005_MachetCorentin.html",
+		"/F/MiniProjet2/html/html_005/index_005.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"equial",
+			"HEAD_H",
+			"errorReturned",
+			"\n\t\t\t",
+			"\t\t\t</",
+			"\t\t\t\t",
+			"Ceci"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"equal",
+			"DUREE_H",
+			"errorReturned_fromconvstr"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "header/src/Window.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								471,
+								471
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 513.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "header/inc/Window.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 593,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								568,
+								568
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "call.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 223.0
+	},
+	"output.find_results":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "dllgraphics.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\corentin\\Desktop\\test\\test.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

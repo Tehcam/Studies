@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Annonce !</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Corentin">
+	<link rel="stylesheet" type="text/css" href="css_005/jeu_console.css">
+</head>
+<body>
+<!--header commun-->
+	<div id="menu_parameters_content" style="display: none;">
+	<!-- parametres -->
+		<table>
+			<tr><td class="changingMode_option"><i>contenuIndisponible</i></td></tr>
+			<tr><td class="changingMode_option"><i>contenuIndisponible</i></td></tr>
+			<tr><td class="changingMode_option"><i>contenuIndisponible</i></td></tr>
+			<tr><td class="changingMode_option"><i>contenuIndisponible</i></td></tr>
+		</table>
+	</div>
+	<header>
+		<div id="header_content">
+		<!-- flex-box du header -->
+			<div class="head" id="title_presentation">
+			<!-- titres et sous-titre de page -->
+				<span id="M">M</span>
+				<div>
+					<h1>a présentation de group'</h1>
+					<h2>ini-projet ISN : les JEUX <span>par GP_005</span></h2>
+				</div>
+			</div>
+			<div class="head" id="icon_parameters">
+			<!-- icone des parametres-->
+				<img src="img_005/005_MachetCorentin/parametres.ico">
+				<p id="options">Options</p>
+			</div>
+		</div>
+	</header>
+
+	<div id="button_box">
+		<span class="button" id="presentation_button" style="opacity:1;">Présentation</span>
+		<span class="button" id="algorithme_button" style="opacity:.5;">Algorithme</span>
+	</div>
+	<section>
+		<article id="presentation" style="display: block;">
+			<!-- presentation general + lien vers le fichier exe -->
+			<div class="exe" id="description">
+				<h4>Notre premier jeu en console C !</h4>
+				<p>Pour cette première version de notre jeu intitulé <u>L'incroyable Aventure de Downsy et Upyre</u>, Robin et Corentin ont le plaisir de vous inviter à.... prendre des décisions ! <br> Eh oui ! Downsy et Upyre est un jeu à choix. Prenez une mauvaise décision et votre vie diminuera ! Jouez aléatoirement et rien ne vous garantira de finir votre partie! <br>Pour autant, cette version beta ne vous propose que deux levels sur une infinité que nous (ou vous-même) aurions pu inventer...!<br>Vous pouvez par ailleurs, accéder à l'algorithme de base utilisé pour programmer notre jeu dans la rubrique "Algorithme" disponible ci-dessus. Evidemment, cet algo s'est amélioré depuis sa création ;)<br>Comme vous le remarquerez, Downsy et Upyre ne possède pas d'interface graphique : le principe du jeu sur console (cpp) est justement de s'affranchir de notre habituelle intéraction avec l'image numérique ! Autant de challenge qui font de notre jeu un petit concentré de potentel.<br>Alors, sur ce... profité de cette périeuse aventure : bonne partie !<br></p>
+			</div>
+			<div class="exe" id="fichier">Testez notre jeu en cliquant <a href="../exe/CorentinRobin.exe">ici</a> !</div>
+		</article>
+		<article id="algorithme" style="display: none;">
+			<!-- algorithme -->
+			<p></p>
+			<img src="img_005/algo.PNG">
+		</article>
+	</section>
+	<footer>
+		<br>
+		<a href="index_005.html">&emsp;&rsaquo;&rsaquo;&rsaquo; Retour à l'accueil...</a>
+	</footer>
+
+<!--
+	<script type="text/javascript" src="css_005/005_MachetCorentin/005_MachetCorentin_script_1.js"></script>
+-->
+	<script type="text/javascript">
+		// query('#icon_parameters', '#menu_parameters_content');
+
+		var icon = document.querySelector('#icon_parameters');
+		var acc = document.querySelector('#title_presentation');
+
+		icon.addEventListener('click', function(e){
+			alert("Fonctions indisponibles");
+		});
+		acc.addEventListener('click', function(e){
+			window.location = "./index_005.html";
+		})
+
+		var presentation = document.querySelector('#presentation_button');
+		var algorithme = document.querySelector('#algorithme_button');
+		var art_presentation = document.querySelector('#presentation');
+		var art_algorithme = document.querySelector('#algorithme');
+
+		presentation.addEventListener('click', function(e){
+			art_presentation.style = "display:block;";
+			art_algorithme.style = "display:none;";
+			presentation.style = "opacity:1;";
+			algorithme.style = "opacity:.5;";
+		});
+		algorithme.addEventListener('click', function(e){
+			art_presentation.style = "display:none;";
+			art_algorithme.style = "display:block;";
+			presentation.style = "opacity:.5;";
+			algorithme.style = "opacity:1;";
+		});
+	</script>
+
+</body>
+</html>

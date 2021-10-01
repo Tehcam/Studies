@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- Factoriel -->
+
+<html lang="fr">
+	<head>
+		<title>Factoriel</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Sprod-CMachet">
+	</head>
+	<body>
+		<script type="text/javascript">
+			(function()
+				{
+					var n = parseInt(prompt("Entrez un entier"));
+					var result = 1;
+					for(var i=2; i<=n; i++)
+					{
+						result *= i;
+					}
+					document.write("La Factoriel de " + n + " est " + result);
+				})();
+		</script>
+	</body>
+</html>
+<!-- end // Factoriel -->

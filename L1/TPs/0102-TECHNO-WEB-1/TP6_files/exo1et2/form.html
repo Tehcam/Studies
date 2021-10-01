@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<title>Formulaire</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="form.css">
+	</head>
+	<body>
+		<section class="container">
+			<table id="firstTable" border>
+				<tr>
+					<td>
+						<form action="mailto:corentin.machet@etudiant.univ-reims.fr" method="post" enctype="text/plain">
+							<h3>Formulaire de Saisie</h3>
+							<table id="secondTable" border>
+								<tr>
+									<td>Nom :</td>
+									<td colspan="3">
+										<input type="text" name="lastname">
+									</td>
+								</tr>
+								<tr>
+									<td>Prénom :</td>
+									<td colspan="3">
+										<input type="text" name="firstname">
+									</td>
+								</tr>
+								<tr>
+									<td>Date de Naissance :</td>
+									<td colspan="3">
+										<input type="text" name="birth">
+									</td>
+								</tr>
+								<tr>
+									<td>Lieu de Naissance :</td>
+									<td colspan="3">
+										<input type="text" name="birthplace">
+									</td>
+								</tr>
+								<tr>
+									<td>Sexe :</td>
+									<td colspan="3">
+										<label>Masculin<input type="radio" name="gender" value="male"></label>
+										<label>Féminin<input type="radio" name="gender" value="female"></label>
+										<label>Indéterminé<input type="radio" name="gender" value="other"></label>
+									</td>
+								</tr>
+								<tr>
+									<td>Adresse :</td>
+									<td>
+										<input type="number" name="location_nb">
+									</td>
+									<td>
+										<select name="location_type">
+											<option value="rue">Rue</option>
+											<option value="av">Av</option>
+											<option value="bd">Bd</option>
+											<option value="allee">Allée</option>
+											<option value="impasse">Impasse</option>
+											<option value="place">Place</option>
+											<option value="square">Square</option>
+											<option value="lieudit">Lieu-dit</option>
+										</select>
+									</td>
+									<td>
+										<input type="text" name="location_name">
+									</td>
+								</tr>
+								<tr>
+									<td>Code Postal</td>
+									<td colspan="3">
+										<input type="text" name="code" maxlength="5" size="5em">
+									</td>
+								</tr>
+								<tr>
+									<td>Ville :</td>
+									<td colspan="3">
+										<input type="text" name="city">
+									</td>
+								</tr>
+								<tr>
+									<td>Mail :</td>
+									<td colspan="3">
+										<input type="mail" name="mail">
+									</td>
+								</tr>
+								<tr>
+									<td>Commentaires :</td>
+									<td colspan="3">
+										<textarea></textarea>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<label>Envoyer le formulaire <input type="submit" name="submit" value="Envoyer"></label>
+									</td>
+									<td colspan="2">
+										<label>Effacer le formulaire <input type="reset" name="reset" value="Effacer"></label>
+									</td>
+								</tr>
+							</table>
+						</form>
+					</td>
+				</tr>
+			</table>
+		</section>
+	</body>
+</html>

@@ -1,0 +1,1 @@
+view-source:file:///.../Algo_JeuDeLaVie.txt
