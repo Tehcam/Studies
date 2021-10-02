@@ -1,0 +1,33 @@
+<%= form_with(model: marque, local: true) do |form| %>
+  <% if marque.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(marque.errors.count, "error") %> prohibited this marque from being saved:</h2>
+
+      <ul>
+        <% marque.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :nom %>
+    <%= form.text_field :nom %>
+  </div>
+
+  <fieldset>
+    <legend>Voitures</legend>
+    <%= form.fields_for :voitures do |g| %>
+      <div>
+        Immatriculation : <%= g.text_field :immatriculation %>
+        Couleur : <%= g.text_field :couleur %>
+        Supprimer : <%= g.check_box :_destroy %>
+      </div>
+    <% end %>
+  </fieldset>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

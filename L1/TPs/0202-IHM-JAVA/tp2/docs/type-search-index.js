@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"ExMyJLabel.ClicDeSouris"},{"p":"<Unnamed>","l":"Controleur"},{"p":"<Unnamed>","l":"Etats"},{"p":"<Unnamed>","l":"ExMyJLabel"},{"p":"<Unnamed>","l":"MyJLabel"},{"p":"<Unnamed>","l":"ExMyJLabel.Reset"}]

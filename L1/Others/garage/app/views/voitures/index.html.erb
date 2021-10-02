@@ -1,0 +1,43 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Voitures</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Immatriculation</th>
+      <th>Couleur</th>
+      <th>Marque</th>
+      <th>Modele</th>
+      <th>Date mise en service</th>
+      <th>Personne</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @voitures.each do |voiture| %>
+      <tr>
+        <td><%= voiture.immatriculation %></td>
+        <td><%= voiture.couleur %></td>
+        <td><%= voiture.marque %></td>
+        <td><%= voiture.modele %></td>
+        <td><%= voiture.date_mise_en_service %></td>
+        <td><%= voiture.personne %></td>
+        <td><%= link_to 'Show', voiture %></td>
+        <td><%= link_to 'Edit', edit_voiture_path(voiture) %></td>
+        <td><%= link_to 'Destroy', voiture, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Voiture', new_voiture_path %>
+<% if @page > 0 %>
+  <%= link_to 'Page précédente', voitures_path + "?page=#{@page - 1}" %>
+<% end %>
+<% if @page * 10 < Voiture.count %>
+  <%= link_to 'Page suivante', voitures_path + "?page=#{@page + 1}" %>
+<% end %>

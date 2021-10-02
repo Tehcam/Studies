@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nom:</strong>
+  <%= @marque.nom %>
+</p>
+
+<p>
+  <strong>Voitures:</strong>
+  <% @marque.voitures.each do |voiture| %>
+    <br>&nbsp;
+    <%= link_to voiture, voiture %>
+  <% end %>
+</p>
+
+<%= link_to 'Edit', edit_marque_path(@marque) %> |
+<%= link_to 'Back', marques_path %>

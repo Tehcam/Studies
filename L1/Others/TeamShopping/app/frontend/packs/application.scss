@@ -1,0 +1,22 @@
+@import '~bootstrap/scss/bootstrap';
+
+h3
+{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.list-group-item:hover
+{
+    background-color: rgba(180, 180, 180, .9);
+}
+
+.container.card 
+{
+    margin: 4rem;
+}
+
+body
+{
+    color: red;
+}

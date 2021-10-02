@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Titre:</strong>
+  <%= @chanson.titre %>
+</p>
+
+<p>
+  <strong>Date sortie:</strong>
+  <%= @chanson.date_sortie %>
+</p>
+
+<p>
+  <strong>Age de la chanson:</strong>
+  <%= ((Date.today - @chanson.date_sortie)/365.25).floor %>
+</p>
+
+<p>
+  <strong>Chanteur:</strong>
+  <%= link_to @chanson.artiste, @chanson.artiste %>
+</p>
+
+<p>
+  <strong>Album:</strong>
+  <%= link_to @chanson.album, @chanson.album %>
+</p>
+
+<%= link_to 'Edit', edit_chanson_path(@chanson) %> |
+<%= link_to 'Back', chansons_path %>

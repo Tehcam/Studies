@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  label: MyString
+  quantity: 1
+  is_already_bought: false
+  rayon: MyString
+
+two:
+  label: MyString
+  quantity: 1
+  is_already_bought: false
+  rayon: MyString

@@ -1,0 +1,546 @@
+# Logfile created on 2021-05-31 14:24:51 +0200 by logger.rb/66358
+D, [2021-05-31T14:24:51.818305 #23819] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-05-31T14:24:51.818436 #23819] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-05-31T14:29:42.566942 #23819] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-05-31T14:29:42.567080 #23819] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-05-31T14:32:05.435432 #23819] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-05-31T14:32:05.435567 #23819] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-05-31T14:32:05.496401 #23819] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-05-31T14:32:05.496551 #23819] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-05-31T14:32:05.498644 #23819] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-05-31T14:32:05.498687 #23819] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-05-31T14:32:05.498715 #23819] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-05-31T14:32:05.498761 #23819] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-05-31T14:32:05.499283 #23819] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-05-31T14:32:05.499607 #23819] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3A%22salade%20vient%20d%27%C3%AAtre%20achet%C3%A9%20%21%22%7D?ortt=%7B%22t%22%3A16224643254966140%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=1&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-05-31T14:32:05.588266 #23819] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-05-31T14:32:05.588453 #23819] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-05-31T14:34:29.488132 #23819] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-05-31T14:34:29.488224 #23819] DEBUG -- Pubnub::Telemetry: Current average: 0.08877730369567871
+D, [2021-05-31T14:34:29.488412 #23819] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-05-31T14:34:29.489363 #23819] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-05-31T14:34:29.489401 #23819] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-05-31T14:34:29.489425 #23819] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-05-31T14:34:29.489459 #23819] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-05-31T14:34:29.489487 #23819] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-05-31T14:34:29.489822 #23819] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3A%22tomate%20vient%20d%27%C3%AAtre%20achet%C3%A9%20%21%22%7D?l_pub=0.089&ortt=%7B%22t%22%3A16224644694884500%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=2&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-05-31T14:34:29.525690 #23819] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-05-31T14:34:29.525990 #23819] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-05-31T14:36:19.306422 #23819] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-05-31T14:36:19.306552 #23819] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-05-31T14:36:36.007001 #23819] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-05-31T14:36:36.007095 #23819] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-05-31T14:36:36.057375 #23819] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-05-31T14:36:36.057599 #23819] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-05-31T14:36:36.058071 #23819] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-05-31T14:36:36.058127 #23819] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-05-31T14:36:36.058185 #23819] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-05-31T14:36:36.058227 #23819] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-05-31T14:36:36.059057 #23819] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-05-31T14:36:36.059486 #23819] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3A%22salade%20n%27est%20pas%20encore%20achet%C3%A9%28e%29%20%21%22%7D?ortt=%7B%22t%22%3A16224645960576480%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=1&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-05-31T14:36:36.132883 #23819] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-05-31T14:36:36.133271 #23819] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-05-31T14:39:47.254386 #23819] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-05-31T14:39:47.254465 #23819] DEBUG -- Pubnub::Telemetry: Current average: 0.07357501983642578
+D, [2021-05-31T14:39:47.254618 #23819] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-05-31T14:39:47.254984 #23819] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-05-31T14:39:47.255023 #23819] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-05-31T14:39:47.255047 #23819] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-05-31T14:39:47.255072 #23819] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-05-31T14:39:47.255097 #23819] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-05-31T14:39:47.255487 #23819] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3A%22salade%20vient%20d%27%C3%AAtre%20achet%C3%A9%20%21%22%7D?l_pub=0.074&ortt=%7B%22t%22%3A16224647872546676%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=2&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-05-31T14:39:47.340520 #23819] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-05-31T14:39:47.340735 #23819] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-05-31T14:48:23.351372 #23819] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-05-31T14:48:23.351460 #23819] DEBUG -- Pubnub::Telemetry: Current average: 0.08521652221679688
+D, [2021-05-31T14:48:23.351630 #23819] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-05-31T14:48:23.351981 #23819] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-05-31T14:48:23.352017 #23819] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-05-31T14:48:23.352041 #23819] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-05-31T14:48:23.352067 #23819] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-05-31T14:48:23.352091 #23819] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-05-31T14:48:23.352429 #23819] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3A%22carotte%20n%27est%20pas%20encore%20achet%C3%A9%28e%29%20%21%22%7D?l_pub=0.085&ortt=%7B%22t%22%3A16224653033516746%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=3&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-05-31T14:48:23.475802 #23819] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-05-31T14:48:23.476130 #23819] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-05-31T14:53:26.539143 #23819] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-05-31T14:53:26.539260 #23819] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-05-31T14:53:35.897620 #23819] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-05-31T14:53:35.897753 #23819] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-05-31T14:53:35.898085 #23819] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-05-31T14:53:35.898120 #23819] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-05-31T14:53:35.898144 #23819] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-05-31T14:53:35.898171 #23819] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-05-31T14:53:35.898959 #23819] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-05-31T14:53:35.899258 #23819] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3A%22carotte%20vient%20d%27%C3%AAtre%20achet%C3%A9%20%21%22%2C%22id%22%3A3%7D?ortt=%7B%22t%22%3A16224656158978162%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=1&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-05-31T14:53:35.982072 #23819] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-05-31T14:53:35.982453 #23819] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-05-31T14:54:49.808930 #23819] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-05-31T14:54:49.809010 #23819] DEBUG -- Pubnub::Telemetry: Current average: 0.08285665512084961
+D, [2021-05-31T14:54:49.809159 #23819] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-05-31T14:54:49.809484 #23819] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-05-31T14:54:49.809519 #23819] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-05-31T14:54:49.809543 #23819] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-05-31T14:54:49.809570 #23819] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-05-31T14:54:49.809594 #23819] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-05-31T14:54:49.809890 #23819] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3A%22carotte%20n%27est%20pas%20encore%20achet%C3%A9%28e%29%20%21%22%2C%22id%22%3A3%7D?l_pub=0.083&ortt=%7B%22t%22%3A16224656898091952%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=2&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-05-31T14:54:49.881434 #23819] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-05-31T14:54:49.881635 #23819] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-05-31T14:55:39.328303 #23819] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-05-31T14:55:39.328376 #23819] DEBUG -- Pubnub::Telemetry: Current average: 0.07162690162658691
+D, [2021-05-31T14:55:39.328481 #23819] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-05-31T14:55:39.328865 #23819] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-05-31T14:55:39.328903 #23819] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-05-31T14:55:39.328927 #23819] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-05-31T14:55:39.328953 #23819] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-05-31T14:55:39.328978 #23819] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-05-31T14:55:39.329283 #23819] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3A%22carotte%20vient%20d%27%C3%AAtre%20achet%C3%A9%20%21%22%2C%22id%22%3A3%7D?l_pub=0.072&ortt=%7B%22t%22%3A16224657393285172%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=3&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-05-31T14:55:39.363378 #23819] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-05-31T14:55:39.363558 #23819] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-05-31T14:55:49.226654 #23819] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-05-31T14:55:49.226734 #23819] DEBUG -- Pubnub::Telemetry: Current average: 0.03427529335021973
+D, [2021-05-31T14:55:49.226839 #23819] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-05-31T14:55:49.227208 #23819] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-05-31T14:55:49.227242 #23819] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-05-31T14:55:49.227266 #23819] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-05-31T14:55:49.227291 #23819] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-05-31T14:55:49.227314 #23819] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-05-31T14:55:49.227596 #23819] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3A%22tomate%20n%27est%20pas%20encore%20achet%C3%A9%28e%29%20%21%22%2C%22id%22%3A4%7D?l_pub=0.034&ortt=%7B%22t%22%3A16224657492268756%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=4&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-05-31T14:55:49.247245 #23819] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-05-31T14:55:49.247422 #23819] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-05-31T15:00:37.492460 #23819] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-05-31T15:00:37.492586 #23819] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-05-31T15:00:47.253303 #23819] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-05-31T15:00:47.253461 #23819] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-05-31T15:00:47.254322 #23819] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-05-31T15:00:47.254367 #23819] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-05-31T15:00:47.254395 #23819] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-05-31T15:00:47.254423 #23819] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-05-31T15:00:47.255044 #23819] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-05-31T15:00:47.255437 #23819] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Atrue%2C%22id%22%3A4%7D?ortt=%7B%22t%22%3A16224660472534988%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=1&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-05-31T15:00:47.320083 #23819] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-05-31T15:00:47.320450 #23819] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-05-31T15:01:00.587907 #23819] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-05-31T15:01:00.588000 #23819] DEBUG -- Pubnub::Telemetry: Current average: 0.06480813026428223
+D, [2021-05-31T15:01:00.588159 #23819] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-05-31T15:01:00.588941 #23819] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-05-31T15:01:00.588976 #23819] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-05-31T15:01:00.589001 #23819] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-05-31T15:01:00.589027 #23819] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-05-31T15:01:00.589051 #23819] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-05-31T15:01:00.589315 #23819] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A1%7D?l_pub=0.065&ortt=%7B%22t%22%3A16224660605881972%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=2&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-05-31T15:01:00.635266 #23819] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-05-31T15:01:00.635499 #23819] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-05-31T15:01:46.500542 #23819] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-05-31T15:01:46.500628 #23819] DEBUG -- Pubnub::Telemetry: Current average: 0.046021223068237305
+D, [2021-05-31T15:01:46.500802 #23819] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-05-31T15:01:46.501853 #23819] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-05-31T15:01:46.501899 #23819] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-05-31T15:01:46.501928 #23819] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-05-31T15:01:46.501961 #23819] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-05-31T15:01:46.501989 #23819] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-05-31T15:01:46.502265 #23819] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A3%7D?l_pub=0.046&ortt=%7B%22t%22%3A16224661065008602%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=3&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-05-31T15:01:46.534673 #23819] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-05-31T15:01:46.534833 #23819] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-05-31T15:02:03.377193 #23819] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-05-31T15:02:03.377282 #23819] DEBUG -- Pubnub::Telemetry: Current average: 0.03256344795227051
+D, [2021-05-31T15:02:03.377372 #23819] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-05-31T15:02:03.378064 #23819] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-05-31T15:02:03.378099 #23819] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-05-31T15:02:03.378124 #23819] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-05-31T15:02:03.378150 #23819] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-05-31T15:02:03.378175 #23819] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-05-31T15:02:03.378429 #23819] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Atrue%2C%22id%22%3A1%7D?l_pub=0.033&ortt=%7B%22t%22%3A16224661233774056%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=4&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-05-31T15:02:03.413199 #23819] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-05-31T15:02:03.413386 #23819] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-05-31T15:28:32.075814 #28071] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-05-31T15:28:32.075979 #28071] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-05-31T15:32:24.363169 #28501] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-05-31T15:32:24.363351 #28501] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-05-31T16:43:55.674978 #1624] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-05-31T16:43:55.679008 #1624] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-05-31T16:50:51.659727 #2125] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-05-31T16:50:51.664093 #2125] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-05-31T16:58:31.093433 #2661] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-05-31T16:58:31.097737 #2661] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-06-07T14:58:16.203066 #29274] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-06-07T14:58:16.205677 #29274] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-06-08T11:14:34.304320 #9948] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-06-08T11:14:34.355710 #9948] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-06-08T11:48:45.281157 #11280] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-06-08T11:48:45.281423 #11280] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-06-08T13:27:40.870944 #11280] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-06-08T13:27:40.871159 #11280] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-06-08T13:27:51.871784 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-08T13:27:51.872076 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-08T13:27:51.874041 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-08T13:27:51.874081 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-08T13:27:51.874107 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-08T13:27:51.874133 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-08T13:27:51.874733 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-08T13:27:51.875075 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Anull%2C%22id%22%3A8%7D?ortt=%7B%22t%22%3A16231516718721582%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=1&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-08T13:27:52.728264 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-08T13:27:52.728578 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-08T13:34:55.294994 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-08T13:34:55.295114 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.8532900810241699
+D, [2021-06-08T13:34:55.296569 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-08T13:34:55.297550 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-08T13:34:55.297607 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-08T13:34:55.297643 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-08T13:34:55.297687 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-08T13:34:55.297730 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-08T13:34:55.298213 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Anull%2C%22id%22%3A8%7D?l_pub=0.853&ortt=%7B%22t%22%3A16231520952966130%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=2&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-08T13:34:55.339633 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-08T13:34:55.339989 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-08T14:20:39.943385 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-08T14:20:39.943470 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.0416109561920166
+D, [2021-06-08T14:20:39.943654 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-08T14:20:39.944542 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-08T14:20:39.944603 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-08T14:20:39.944642 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-08T14:20:39.944681 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-08T14:20:39.944709 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-08T14:20:39.945847 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Anull%2C%22id%22%3A8%7D?l_pub=0.042&ortt=%7B%22t%22%3A16231548399436898%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=3&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-08T14:20:40.011678 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-08T14:20:40.011950 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-08T14:23:17.689518 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-08T14:23:17.689605 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.06677842140197754
+D, [2021-06-08T14:23:17.689721 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-08T14:23:17.690572 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-08T14:23:17.690616 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-08T14:23:17.690656 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-08T14:23:17.690693 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-08T14:23:17.690726 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-08T14:23:17.691733 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Anull%2C%22id%22%3A8%7D?l_pub=0.067&ortt=%7B%22t%22%3A16231549976897552%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=4&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-08T14:23:17.782096 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-08T14:23:17.782402 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-08T14:29:00.032861 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-08T14:29:00.032972 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.09113359451293945
+D, [2021-06-08T14:29:00.033146 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-08T14:29:00.034180 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-08T14:29:00.034248 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-08T14:29:00.034286 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-08T14:29:00.034351 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-08T14:29:00.034406 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-08T14:29:00.034853 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Anull%2C%22id%22%3A8%7D?l_pub=0.091&ortt=%7B%22t%22%3A16231553400331962%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=5&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-08T14:29:00.235605 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-08T14:29:00.235954 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-08T14:35:25.456864 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-08T14:35:25.456952 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.20095300674438477
+D, [2021-06-08T14:35:25.457095 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-08T14:35:25.457728 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-08T14:35:25.457764 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-08T14:35:25.457796 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-08T14:35:25.457825 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-08T14:35:25.457848 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-08T14:35:25.458488 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Anull%2C%22id%22%3A8%7D?l_pub=0.201&ortt=%7B%22t%22%3A16231557254571292%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=6&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-08T14:35:25.514732 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-08T14:35:25.514995 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-08T14:40:27.387698 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-08T14:40:27.387814 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.056705474853515625
+D, [2021-06-08T14:40:27.387974 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-08T14:40:27.388785 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-08T14:40:27.388824 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-08T14:40:27.388851 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-08T14:40:27.388875 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-08T14:40:27.388899 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-08T14:40:27.389183 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Anull%2C%22id%22%3A8%7D?l_pub=0.057&ortt=%7B%22t%22%3A16231560273880112%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=7&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-08T14:40:27.452638 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-08T14:40:27.452939 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-08T15:10:54.543244 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-08T15:10:54.543336 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.06340742111206055
+D, [2021-06-08T15:10:54.543456 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-08T15:10:54.544308 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-08T15:10:54.544346 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-08T15:10:54.544376 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-08T15:10:54.544413 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-08T15:10:54.544441 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-08T15:10:54.544713 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Anull%2C%22id%22%3A8%7D?l_pub=0.063&ortt=%7B%22t%22%3A16231578545434906%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=8&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-08T15:10:54.713751 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-08T15:10:54.714075 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-08T15:17:04.751907 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-08T15:17:04.752064 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.1690833568572998
+D, [2021-06-08T15:17:04.752298 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-08T15:17:04.753452 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-08T15:17:04.753489 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-08T15:17:04.753513 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-08T15:17:04.753550 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-08T15:17:04.753576 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-08T15:17:04.753910 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Anull%2C%22id%22%3A8%7D?l_pub=0.169&ortt=%7B%22t%22%3A16231582247523596%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=9&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-08T15:17:04.807868 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-08T15:17:04.808634 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-08T15:17:33.235463 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-08T15:17:33.235525 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.05405473709106445
+D, [2021-06-08T15:17:33.235629 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-08T15:17:33.236314 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-08T15:17:33.236351 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-08T15:17:33.236374 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-08T15:17:33.236398 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-08T15:17:33.236421 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-08T15:17:33.236665 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Anull%2C%22id%22%3A8%7D?l_pub=0.054&ortt=%7B%22t%22%3A16231582532356612%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=10&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-08T15:17:33.317089 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-08T15:17:33.317273 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-08T15:34:47.340323 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-08T15:34:47.340440 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.0805349349975586
+D, [2021-06-08T15:34:47.340580 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-08T15:34:47.341464 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-08T15:34:47.341502 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-08T15:34:47.341526 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-08T15:34:47.341560 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-08T15:34:47.341586 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-08T15:34:47.341911 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Atrue%2C%22id%22%3A8%7D?l_pub=0.081&ortt=%7B%22t%22%3A16231592873406262%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=11&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-08T15:34:47.431769 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-08T15:34:47.432686 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-08T15:35:41.712376 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-08T15:35:41.712505 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.08993220329284668
+D, [2021-06-08T15:35:41.712634 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-08T15:35:41.713605 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-08T15:35:41.713670 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-08T15:35:41.713722 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-08T15:35:41.713784 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-08T15:35:41.713868 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-08T15:35:41.714631 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A8%7D?l_pub=0.09&ortt=%7B%22t%22%3A16231593417126704%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=12&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-08T15:35:41.754865 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-08T15:35:41.755054 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-08T15:37:35.858462 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-08T15:37:35.858550 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.040785789489746094
+D, [2021-06-08T15:37:35.858715 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-08T15:37:35.859615 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-08T15:37:35.859656 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-08T15:37:35.859690 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-08T15:37:35.859727 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-08T15:37:35.859754 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-08T15:37:35.860020 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Atrue%2C%22id%22%3A8%7D?l_pub=0.041&ortt=%7B%22t%22%3A16231594558587506%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=13&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-08T15:37:35.893018 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-08T15:37:35.893392 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-08T15:41:01.214746 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-08T15:41:01.214843 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.03299832344055176
+D, [2021-06-08T15:41:01.214997 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-08T15:41:01.215993 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-08T15:41:01.216046 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-08T15:41:01.216075 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-08T15:41:01.216155 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-08T15:41:01.216200 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-08T15:41:01.216512 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Atrue%2C%22id%22%3A7%7D?l_pub=0.033&ortt=%7B%22t%22%3A16231596612150336%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=14&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-08T15:41:01.284148 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-08T15:41:01.284462 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-08T16:02:50.577719 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-08T16:02:50.577822 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.06766748428344727
+D, [2021-06-08T16:02:50.577992 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-08T16:02:50.578786 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-08T16:02:50.578823 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-08T16:02:50.578848 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-08T16:02:50.578875 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-08T16:02:50.578901 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-08T16:02:50.579167 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A7%7D?l_pub=0.068&ortt=%7B%22t%22%3A16231609705780296%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=15&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-08T16:02:50.628780 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-08T16:02:50.629066 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-08T16:24:27.147751 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-08T16:24:27.147868 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.049690961837768555
+D, [2021-06-08T16:24:27.148032 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-08T16:24:27.149058 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-08T16:24:27.149110 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-08T16:24:27.149138 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-08T16:24:27.149173 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-08T16:24:27.149200 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-08T16:24:27.149546 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A5%7D?l_pub=0.05&ortt=%7B%22t%22%3A16231622671480670%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=16&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-08T16:24:27.234630 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-08T16:24:27.235020 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-09T10:28:57.411703 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-09T10:28:57.413516 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.08515262603759766
+D, [2021-06-09T10:28:57.413676 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-09T10:28:57.414425 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-09T10:28:57.414462 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-09T10:28:57.414487 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-09T10:28:57.414541 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-09T10:28:57.414568 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-09T10:28:57.415004 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A5%7D?l_pub=0.085&ortt=%7B%22t%22%3A16232273374137116%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=17&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-09T10:28:57.506264 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-09T10:28:57.506609 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-09T10:29:38.978645 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-09T10:29:38.978740 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.09140253067016602
+D, [2021-06-09T10:29:38.978861 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-09T10:29:38.979606 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-09T10:29:38.979651 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-09T10:29:38.979679 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-09T10:29:38.979705 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-09T10:29:38.979729 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-09T10:29:38.980899 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A5%7D?l_pub=0.091&ortt=%7B%22t%22%3A16232273789788940%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=18&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-09T10:29:39.031047 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-09T10:29:39.031272 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-09T10:29:50.934401 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-09T10:29:50.934521 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.0511326789855957
+D, [2021-06-09T10:29:50.934651 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-09T10:29:50.935756 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-09T10:29:50.935810 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-09T10:29:50.935853 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-09T10:29:50.935900 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-09T10:29:50.935947 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-09T10:29:50.936544 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A5%7D?l_pub=0.051&ortt=%7B%22t%22%3A16232273909347010%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=19&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-09T10:29:51.010838 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-09T10:29:51.011024 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-09T10:29:57.714374 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-09T10:29:57.714476 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.0747377872467041
+D, [2021-06-09T10:29:57.714608 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-09T10:29:57.715734 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-09T10:29:57.715859 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-09T10:29:57.715911 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-09T10:29:57.715965 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-09T10:29:57.716017 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-09T10:29:57.716470 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A6%7D?l_pub=0.075&ortt=%7B%22t%22%3A16232273977146608%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=20&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-09T10:29:57.735124 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-09T10:29:57.735266 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-09T10:30:10.531288 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-09T10:30:10.531393 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.018987417221069336
+D, [2021-06-09T10:30:10.531557 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-09T10:30:10.532620 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-09T10:30:10.532671 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-09T10:30:10.532712 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-09T10:30:10.532757 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-09T10:30:10.532799 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-09T10:30:10.533212 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A6%7D?l_pub=0.019&ortt=%7B%22t%22%3A16232274105316042%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=21&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-09T10:30:10.572010 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-09T10:30:10.572241 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-09T10:30:11.244812 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-09T10:30:11.244913 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.0390470027923584
+D, [2021-06-09T10:30:11.245077 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-09T10:30:11.245956 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-09T10:30:11.246022 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-09T10:30:11.246050 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-09T10:30:11.246076 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-09T10:30:11.246106 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-09T10:30:11.246360 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A6%7D?l_pub=0.039&ortt=%7B%22t%22%3A16232274112451304%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=22&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-09T10:30:11.264960 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-09T10:30:11.265175 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-09T10:30:12.174711 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-09T10:30:12.174782 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.018713951110839844
+D, [2021-06-09T10:30:12.174869 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-09T10:30:12.175614 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-09T10:30:12.175650 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-09T10:30:12.175675 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-09T10:30:12.175700 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-09T10:30:12.175724 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-09T10:30:12.177240 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A5%7D?l_pub=0.019&ortt=%7B%22t%22%3A16232274121749038%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=23&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-09T10:30:12.195202 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-09T10:30:12.195505 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-09T10:30:14.221142 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-09T10:30:14.221244 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.019331932067871094
+D, [2021-06-09T10:30:14.221378 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-09T10:30:14.222482 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-09T10:30:14.222537 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-09T10:30:14.222582 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-09T10:30:14.222630 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-09T10:30:14.222674 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-09T10:30:14.223100 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A7%7D?l_pub=0.019&ortt=%7B%22t%22%3A16232274142214306%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=24&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-09T10:30:14.271730 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-09T10:30:14.271923 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-09T10:32:40.869705 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-09T10:32:40.869785 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.04889631271362305
+D, [2021-06-09T10:32:40.869952 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-09T10:32:40.870805 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-09T10:32:40.870850 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-09T10:32:40.870886 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-09T10:32:40.870914 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-09T10:32:40.870938 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-09T10:32:40.871463 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Atrue%2C%22id%22%3A6%7D?l_pub=0.049&ortt=%7B%22t%22%3A16232275608700080%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=25&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-09T10:32:40.904826 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-09T10:32:40.905281 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-09T10:33:52.975087 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-09T10:33:52.975184 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.033568382263183594
+D, [2021-06-09T10:33:52.975312 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-09T10:33:52.976256 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-09T10:33:52.976306 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-09T10:33:52.976346 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-09T10:33:52.976389 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-09T10:33:52.976444 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-09T10:33:52.977541 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Atrue%2C%22id%22%3A6%7D?l_pub=0.034&ortt=%7B%22t%22%3A16232276329753604%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=26&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-09T10:33:53.014964 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-09T10:33:53.015227 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-09T10:40:02.112364 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-09T10:40:02.112504 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.03825807571411133
+D, [2021-06-09T10:40:02.112694 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-09T10:40:02.113646 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-09T10:40:02.113700 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-09T10:40:02.113730 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-09T10:40:02.113763 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-09T10:40:02.113809 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-09T10:40:02.114250 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A6%7D?l_pub=0.038&ortt=%7B%22t%22%3A16232280021127328%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=27&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-09T10:40:02.186681 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-09T10:40:02.187774 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-09T10:40:14.325881 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-09T10:40:14.325969 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.07263040542602539
+D, [2021-06-09T10:40:14.326079 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-09T10:40:14.326890 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-09T10:40:14.326960 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-09T10:40:14.326993 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-09T10:40:14.327031 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-09T10:40:14.327054 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-09T10:40:14.327851 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Atrue%2C%22id%22%3A5%7D?l_pub=0.073&ortt=%7B%22t%22%3A16232280143261128%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=28&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-09T10:40:14.361127 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-09T10:40:14.361350 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-09T10:49:30.004748 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-09T10:49:30.004848 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.03388810157775879
+D, [2021-06-09T10:49:30.005000 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-09T10:49:30.005947 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-09T10:49:30.005983 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-09T10:49:30.006021 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-09T10:49:30.006068 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-09T10:49:30.006104 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-09T10:49:30.006516 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A5%7D?l_pub=0.034&ortt=%7B%22t%22%3A16232285700050430%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=29&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-09T10:49:30.084087 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-09T10:49:30.084415 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-09T10:49:33.605061 #11280] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-09T10:49:33.605132 #11280] DEBUG -- Pubnub::Telemetry: Current average: 0.07773780822753906
+D, [2021-06-09T10:49:33.605225 #11280] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-09T10:49:33.606033 #11280] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-09T10:49:33.606068 #11280] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-09T10:49:33.606092 #11280] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-09T10:49:33.606118 #11280] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-09T10:49:33.606142 #11280] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-09T10:49:33.606384 #11280] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Atrue%2C%22id%22%3A6%7D?l_pub=0.078&ortt=%7B%22t%22%3A16232285736052700%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=30&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-09T10:49:33.645720 #11280] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-09T10:49:33.645902 #11280] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-09T10:50:58.295858 #30431] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2021-06-09T10:50:58.296048 #30431] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.6.1
+D, [2021-06-09T10:50:58.369636 #30431] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-09T10:50:58.370241 #30431] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-09T10:50:58.372759 #30431] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-09T10:50:58.372806 #30431] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-09T10:50:58.372833 #30431] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-09T10:50:58.372911 #30431] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-09T10:50:58.373462 #30431] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-09T10:50:58.373781 #30431] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Atrue%2C%22id%22%3A5%7D?ortt=%7B%22t%22%3A16232286583702948%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=1&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-09T10:50:58.408158 #30431] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-09T10:50:58.408353 #30431] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-10T09:56:33.162679 #30431] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-10T09:56:33.164265 #30431] DEBUG -- Pubnub::Telemetry: Current average: 0.03441643714904785
+D, [2021-06-10T09:56:33.165492 #30431] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-10T09:56:33.166756 #30431] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-10T09:56:33.166812 #30431] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-10T09:56:33.166870 #30431] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-10T09:56:33.166923 #30431] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-10T09:56:33.166973 #30431] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-10T09:56:33.167588 #30431] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A6%7D?l_pub=0.034&ortt=%7B%22t%22%3A16233117931655612%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=2&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-10T09:56:41.860641 #30431] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-10T09:56:41.860952 #30431] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-10T10:15:10.870129 #30431] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-10T10:15:10.870284 #30431] DEBUG -- Pubnub::Telemetry: Current average: 8.693418979644775
+D, [2021-06-10T10:15:10.870520 #30431] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-10T10:15:10.871784 #30431] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-10T10:15:10.871882 #30431] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-10T10:15:10.871936 #30431] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-10T10:15:10.871991 #30431] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-10T10:15:10.872037 #30431] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-10T10:15:10.872601 #30431] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Atrue%2C%22id%22%3A6%7D?l_pub=8.693&ortt=%7B%22t%22%3A16233129108705806%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=3&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-10T10:15:11.006196 #30431] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-10T10:15:11.006591 #30431] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2021-06-10T10:15:13.204042 #30431] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2021-06-10T10:15:13.204147 #30431] DEBUG -- Pubnub::Telemetry: Current average: 0.1338496208190918
+D, [2021-06-10T10:15:13.204246 #30431] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2021-06-10T10:15:13.205035 #30431] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2021-06-10T10:15:13.205070 #30431] DEBUG -- Pubnub::Event: #send_request called
+D, [2021-06-10T10:15:13.205095 #30431] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2021-06-10T10:15:13.205128 #30431] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2021-06-10T10:15:13.205158 #30431] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2021-06-10T10:15:13.205432 #30431] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-9ce10d1f-f958-426a-bd74-849e495aa82b/sub-c-828cd53c-bfc3-11eb-aee1-fe487e55b6a4/0/courses/0/%7B%22title%22%3A%22TeamShopping%22%2C%22content%22%3Afalse%2C%22id%22%3A6%7D?l_pub=0.134&ortt=%7B%22t%22%3A16233129132042792%7D&pnsdk=PubNub-Ruby%2F4.6.1&seqn=4&uuid=sec-c-YzNmMTViY2EtNTgwZS00Y2FkLTllOWEtYWQ4MDdiNjQyYmEw
+D, [2021-06-10T10:15:13.252333 #30431] DEBUG -- Pubnub::Event: Event#handle
+D, [2021-06-10T10:15:13.252584 #30431] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish

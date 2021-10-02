@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Destination:</strong>
+  <%= @voyage.destination %>
+</p>
+
+<p>
+  <strong>Depart:</strong>
+  <%= @voyage.depart %>
+</p>
+
+<p>
+  <strong>Retour:</strong>
+  <%= @voyage.retour %>
+</p>
+
+<p>
+  <strong>Personnes:</strong>
+  <% @voyage.personnes.each do |personne| %>
+  <br>&nbsp;
+  <%= link_to personne, personne %>
+  <% end %>
+</p>
+
+<%= link_to 'Edit', edit_voyage_path(@voyage) %> |
+<%= link_to 'Back', voyages_path %>

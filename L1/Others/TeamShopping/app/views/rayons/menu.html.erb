@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+<div class="navbar navbar-light bg-light">
+    <h1>C'est l'heure de faire les courses !</h1>
+</div>
+
+<% @rayons.each do |rayon| %>
+<div class="container card" style="width: 20rem;">
+    <h3><u><%= rayon %></u></h3>
+    <%= form_with(model: rayon, local: true) do |form| %>
+    <div class="list-group">
+        <% rayon.items.each do |item| %>
+            <p class="list-group-item">
+                &nbsp;&nbsp;
+                <%= form.check_box item, {class: 'checkbox', data:{label: item.label}, checked: item.is_already_bought, id: item.id} %>
+                <%= item %> (<%= item.quantity %>)
+            </p>
+        <% end %>
+    </div>
+    <% end %>
+</div>
+<% end %>
+<%= javascript_pack_tag 'app' %>

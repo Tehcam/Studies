@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<voitures type="array">
+  <voiture>
+    <couleur nil="true"></couleur>
+    <created-at type="datetime">2011-01-31T11:13:14Z</created-at>
+    <id type="integer">2</id>
+    <immatriculation>1234</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">12</id>
+      <nom>Citro&#235;n</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">12</marque-id>
+    <modele>Saxo</modele>
+    <updated-at type="datetime">2011-01-31T11:13:14Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur nil="true"></couleur>
+    <created-at type="datetime">2011-01-31T11:17:33Z</created-at>
+    <id type="integer">3</id>
+    <immatriculation>ancde</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">12</id>
+      <nom>Citro&#235;n</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">12</marque-id>
+    <modele>Ax</modele>
+    <updated-at type="datetime">2011-01-31T11:17:33Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rose</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">4</id>
+    <immatriculation>GP-413-MM</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:09:03Z</created-at>
+      <id type="integer">11</id>
+      <nom>Nissan</nom>
+      <updated-at type="datetime">2011-01-05T10:09:03Z</updated-at>
+    </marque>
+    <marque-id type="integer">11</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Bleue</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">5</id>
+    <immatriculation>FA-564-IX</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:09:03Z</created-at>
+      <id type="integer">11</id>
+      <nom>Nissan</nom>
+      <updated-at type="datetime">2011-01-05T10:09:03Z</updated-at>
+    </marque>
+    <marque-id type="integer">11</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Verte</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">6</id>
+    <immatriculation>WD-744-WC</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">20</id>
+      <nom>Honda</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">20</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rouge</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">7</id>
+    <immatriculation>CM-412-ZY</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">19</id>
+      <nom>Toyota</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">19</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rouge</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">8</id>
+    <immatriculation>FX-662-BC</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">20</id>
+      <nom>Honda</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">20</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Jaune</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">9</id>
+    <immatriculation>GG-178-HB</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">20</id>
+      <nom>Honda</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">20</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Grise</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">10</id>
+    <immatriculation>QM-178-WR</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">13</id>
+      <nom>Fiat</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">13</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Grise</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">11</id>
+    <immatriculation>SA-816-KE</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">20</id>
+      <nom>Honda</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">20</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Jaune</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">12</id>
+    <immatriculation>DF-862-EJ</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">20</id>
+      <nom>Honda</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">20</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rose</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">13</id>
+    <immatriculation>RO-852-QO</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">21</id>
+      <nom>Ford</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">21</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">14</id>
+    <immatriculation>OC-844-AT</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">19</id>
+      <nom>Toyota</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">19</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">15</id>
+    <immatriculation>BM-224-FK</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">21</id>
+      <nom>Ford</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">21</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Noire</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">16</id>
+    <immatriculation>TV-587-SX</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:09:03Z</created-at>
+      <id type="integer">11</id>
+      <nom>Nissan</nom>
+      <updated-at type="datetime">2011-01-05T10:09:03Z</updated-at>
+    </marque>
+    <marque-id type="integer">11</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rouge</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">17</id>
+    <immatriculation>ER-822-EL</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">22</id>
+      <nom>Porsche</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">22</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Noire</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">18</id>
+    <immatriculation>OG-716-CF</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">14</id>
+      <nom>Lada</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">14</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">19</id>
+    <immatriculation>PL-815-YA</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">12</id>
+      <nom>Citro&#235;n</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">12</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">20</id>
+    <immatriculation>OX-234-EJ</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">18</id>
+      <nom>Renault</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">18</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">21</id>
+    <immatriculation>OL-333-TO</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">23</id>
+      <nom>Lexus</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">23</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Bleue</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">22</id>
+    <immatriculation>VO-585-BT</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">14</id>
+      <nom>Lada</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">14</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Noire</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">23</id>
+    <immatriculation>TX-267-XR</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:09:03Z</created-at>
+      <id type="integer">11</id>
+      <nom>Nissan</nom>
+      <updated-at type="datetime">2011-01-05T10:09:03Z</updated-at>
+    </marque>
+    <marque-id type="integer">11</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Bleue</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">24</id>
+    <immatriculation>VU-144-BJ</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">23</id>
+      <nom>Lexus</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">23</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rouge</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">25</id>
+    <immatriculation>WH-153-PQ</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">12</id>
+      <nom>Citro&#235;n</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">12</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Verte</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">26</id>
+    <immatriculation>LP-876-TT</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">14</id>
+      <nom>Lada</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">14</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Verte</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">27</id>
+    <immatriculation>EP-723-XK</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">23</id>
+      <nom>Lexus</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">23</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Grise</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">28</id>
+    <immatriculation>DY-438-GG</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">18</id>
+      <nom>Renault</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">18</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rose</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">29</id>
+    <immatriculation>DY-816-VA</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">13</id>
+      <nom>Fiat</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">13</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Verte</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">30</id>
+    <immatriculation>DN-215-TF</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">17</id>
+      <nom>Peugeot</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">17</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Verte</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">31</id>
+    <immatriculation>TW-522-XO</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">19</id>
+      <nom>Toyota</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">19</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Verte</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">32</id>
+    <immatriculation>QT-288-PY</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">23</id>
+      <nom>Lexus</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">23</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">33</id>
+    <immatriculation>WN-638-GW</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">23</id>
+      <nom>Lexus</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">23</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Bleue</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">34</id>
+    <immatriculation>BS-412-FV</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">21</id>
+      <nom>Ford</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">21</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Noire</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">35</id>
+    <immatriculation>JJ-274-RS</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">18</id>
+      <nom>Renault</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">18</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Verte</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">36</id>
+    <immatriculation>QR-225-CV</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">13</id>
+      <nom>Fiat</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">13</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Jaune</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">37</id>
+    <immatriculation>VV-641-ED</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">13</id>
+      <nom>Fiat</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">13</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Grise</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">38</id>
+    <immatriculation>VR-662-HO</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">23</id>
+      <nom>Lexus</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">23</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rose</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">39</id>
+    <immatriculation>MZ-455-OO</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">22</id>
+      <nom>Porsche</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">22</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">40</id>
+    <immatriculation>RK-851-JM</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">18</id>
+      <nom>Renault</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">18</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Grise</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">41</id>
+    <immatriculation>SV-758-UN</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">13</id>
+      <nom>Fiat</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">13</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">42</id>
+    <immatriculation>ZS-387-RT</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">24</id>
+      <nom>Jaguar</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">24</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rouge</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">43</id>
+    <immatriculation>VV-883-WH</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">12</id>
+      <nom>Citro&#235;n</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">12</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Bleue</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">44</id>
+    <immatriculation>QJ-127-PO</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:09:03Z</created-at>
+      <id type="integer">11</id>
+      <nom>Nissan</nom>
+      <updated-at type="datetime">2011-01-05T10:09:03Z</updated-at>
+    </marque>
+    <marque-id type="integer">11</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">45</id>
+    <immatriculation>AO-813-UQ</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">19</id>
+      <nom>Toyota</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">19</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Noire</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">46</id>
+    <immatriculation>FF-584-SD</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">17</id>
+      <nom>Peugeot</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">17</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rouge</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">47</id>
+    <immatriculation>BI-463-PH</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">23</id>
+      <nom>Lexus</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">23</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rouge</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">48</id>
+    <immatriculation>GZ-235-AF</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">19</id>
+      <nom>Toyota</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">19</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Noire</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">49</id>
+    <immatriculation>PD-783-AJ</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:09:03Z</created-at>
+      <id type="integer">11</id>
+      <nom>Nissan</nom>
+      <updated-at type="datetime">2011-01-05T10:09:03Z</updated-at>
+    </marque>
+    <marque-id type="integer">11</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Noire</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">50</id>
+    <immatriculation>JW-422-ZW</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">23</id>
+      <nom>Lexus</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">23</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">51</id>
+    <immatriculation>RO-572-MB</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">23</id>
+      <nom>Lexus</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">23</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rouge</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">52</id>
+    <immatriculation>FG-153-IA</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">22</id>
+      <nom>Porsche</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">22</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Verte</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">53</id>
+    <immatriculation>PC-627-AF</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">19</id>
+      <nom>Toyota</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">19</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Grise</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">54</id>
+    <immatriculation>NF-733-EP</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">12</id>
+      <nom>Citro&#235;n</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">12</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Verte</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">55</id>
+    <immatriculation>CE-813-MR</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">21</id>
+      <nom>Ford</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">21</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rose</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">56</id>
+    <immatriculation>FX-724-GT</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">19</id>
+      <nom>Toyota</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">19</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">57</id>
+    <immatriculation>GT-531-KC</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">13</id>
+      <nom>Fiat</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">13</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Verte</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">58</id>
+    <immatriculation>UJ-831-HO</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">19</id>
+      <nom>Toyota</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">19</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Verte</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">59</id>
+    <immatriculation>ER-375-BT</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">19</id>
+      <nom>Toyota</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">19</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Grise</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">60</id>
+    <immatriculation>BK-476-RT</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">17</id>
+      <nom>Peugeot</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">17</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rose</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">61</id>
+    <immatriculation>ER-663-LU</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">19</id>
+      <nom>Toyota</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">19</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rouge</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">62</id>
+    <immatriculation>YE-486-WT</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">12</id>
+      <nom>Citro&#235;n</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">12</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rose</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">63</id>
+    <immatriculation>JT-355-JL</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">20</id>
+      <nom>Honda</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">20</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Jaune</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">64</id>
+    <immatriculation>BV-647-WO</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">18</id>
+      <nom>Renault</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">18</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">65</id>
+    <immatriculation>GK-262-TU</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">18</id>
+      <nom>Renault</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">18</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rouge</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">66</id>
+    <immatriculation>VH-867-MD</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">22</id>
+      <nom>Porsche</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">22</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Noire</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">67</id>
+    <immatriculation>LT-443-XK</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">18</id>
+      <nom>Renault</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">18</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Bleue</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">68</id>
+    <immatriculation>HD-725-YI</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">14</id>
+      <nom>Lada</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">14</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">69</id>
+    <immatriculation>IV-624-UR</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:09:03Z</created-at>
+      <id type="integer">11</id>
+      <nom>Nissan</nom>
+      <updated-at type="datetime">2011-01-05T10:09:03Z</updated-at>
+    </marque>
+    <marque-id type="integer">11</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Jaune</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">70</id>
+    <immatriculation>AE-647-MM</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">24</id>
+      <nom>Jaguar</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">24</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rose</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">71</id>
+    <immatriculation>LF-216-TO</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">21</id>
+      <nom>Ford</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">21</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Noire</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">72</id>
+    <immatriculation>OF-443-LV</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">21</id>
+      <nom>Ford</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">21</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Grise</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">73</id>
+    <immatriculation>BR-581-VC</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">24</id>
+      <nom>Jaguar</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">24</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Bleue</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">74</id>
+    <immatriculation>KW-376-BD</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">24</id>
+      <nom>Jaguar</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">24</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Bleue</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">75</id>
+    <immatriculation>YM-775-WF</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">12</id>
+      <nom>Citro&#235;n</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">12</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Bleue</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">76</id>
+    <immatriculation>AF-517-ST</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:09:03Z</created-at>
+      <id type="integer">11</id>
+      <nom>Nissan</nom>
+      <updated-at type="datetime">2011-01-05T10:09:03Z</updated-at>
+    </marque>
+    <marque-id type="integer">11</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rose</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">77</id>
+    <immatriculation>SP-332-KE</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">14</id>
+      <nom>Lada</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">14</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Jaune</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">78</id>
+    <immatriculation>RG-724-JK</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:09:03Z</created-at>
+      <id type="integer">11</id>
+      <nom>Nissan</nom>
+      <updated-at type="datetime">2011-01-05T10:09:03Z</updated-at>
+    </marque>
+    <marque-id type="integer">11</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Grise</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">79</id>
+    <immatriculation>JW-521-SW</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">24</id>
+      <nom>Jaguar</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">24</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">80</id>
+    <immatriculation>ZX-251-AO</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">19</id>
+      <nom>Toyota</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">19</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Verte</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">81</id>
+    <immatriculation>CJ-646-KR</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">17</id>
+      <nom>Peugeot</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">17</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Jaune</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">82</id>
+    <immatriculation>LS-551-SJ</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">14</id>
+      <nom>Lada</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">14</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rouge</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">83</id>
+    <immatriculation>EZ-756-AY</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">14</id>
+      <nom>Lada</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">14</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">84</id>
+    <immatriculation>OZ-455-WA</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">19</id>
+      <nom>Toyota</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">19</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Grise</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">85</id>
+    <immatriculation>LM-723-IV</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">23</id>
+      <nom>Lexus</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">23</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Noire</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">86</id>
+    <immatriculation>XL-423-SL</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">19</id>
+      <nom>Toyota</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">19</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rouge</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">87</id>
+    <immatriculation>JY-872-FK</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">14</id>
+      <nom>Lada</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">14</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Grise</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">88</id>
+    <immatriculation>WQ-623-QG</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">17</id>
+      <nom>Peugeot</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">17</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Noire</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">89</id>
+    <immatriculation>ER-342-MC</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">14</id>
+      <nom>Lada</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">14</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Bleue</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">90</id>
+    <immatriculation>ZE-374-UA</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">20</id>
+      <nom>Honda</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">20</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">91</id>
+    <immatriculation>TE-343-YH</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">18</id>
+      <nom>Renault</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">18</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rouge</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">92</id>
+    <immatriculation>XA-476-NQ</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">17</id>
+      <nom>Peugeot</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">17</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rose</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">93</id>
+    <immatriculation>SA-882-DK</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">12</id>
+      <nom>Citro&#235;n</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">12</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Noire</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">94</id>
+    <immatriculation>RZ-751-PZ</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">14</id>
+      <nom>Lada</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">14</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">95</id>
+    <immatriculation>IB-213-PH</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">12</id>
+      <nom>Citro&#235;n</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">12</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Verte</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">96</id>
+    <immatriculation>WW-464-XJ</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">20</id>
+      <nom>Honda</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">20</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Noire</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">97</id>
+    <immatriculation>YM-256-SW</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">14</id>
+      <nom>Lada</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">14</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Jaune</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">98</id>
+    <immatriculation>SI-321-PY</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">21</id>
+      <nom>Ford</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">21</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Verte</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">99</id>
+    <immatriculation>JO-871-ED</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">22</id>
+      <nom>Porsche</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">22</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Jaune</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">100</id>
+    <immatriculation>PC-821-VU</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">22</id>
+      <nom>Porsche</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">22</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Blanche</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">101</id>
+    <immatriculation>QG-247-VQ</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">12</id>
+      <nom>Citro&#235;n</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">12</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Rose</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">102</id>
+    <immatriculation>OM-186-VX</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+      <id type="integer">24</id>
+      <nom>Jaguar</nom>
+      <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+    </marque>
+    <marque-id type="integer">24</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+  <voiture>
+    <couleur>Noire</couleur>
+    <created-at type="datetime">2011-02-06T12:03:17Z</created-at>
+    <id type="integer">103</id>
+    <immatriculation>KL-445-FC</immatriculation>
+    <marque>
+      <created-at type="datetime">2011-01-05T10:10:10Z</created-at>
+      <id type="integer">12</id>
+      <nom>Citro&#235;n</nom>
+      <updated-at type="datetime">2011-01-05T10:10:10Z</updated-at>
+    </marque>
+    <marque-id type="integer">12</marque-id>
+    <modele nil="true"></modele>
+    <updated-at type="datetime">2011-02-06T12:03:17Z</updated-at>
+  </voiture>
+</voitures>

@@ -1,0 +1,2 @@
+module ChansonsHelper
+end

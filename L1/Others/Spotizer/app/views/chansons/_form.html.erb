@@ -1,0 +1,37 @@
+<%= form_with(model: chanson, local: true) do |form| %>
+  <% if chanson.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(chanson.errors.count, "error") %> prohibited this chanson from being saved:</h2>
+
+      <ul>
+        <% chanson.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :titre %>
+    <%= form.text_field :titre %>
+  </div>
+
+  <div class="field">
+    <%= form.label :date_sortie %>
+    <%= form.date_select :date_sortie %>
+  </div>
+
+  <div class="field">
+    <%= form.label :album %>
+    <%= form.collection_select :album_id, Album.order("titre").all, :id, :titre %>
+  </div>
+
+  <div class="field">
+    <%= form.label :artiste %>
+    <%= form.collection_select :artiste_id, Artiste.order("nom").all, :id, :nom %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

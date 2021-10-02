@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Voyages</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Destination</th>
+      <th>Depart</th>
+      <th>Retour</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @voyages.each do |voyage| %>
+      <tr>
+        <td><%= voyage.destination %></td>
+        <td><%= voyage.depart %></td>
+        <td><%= voyage.retour %></td>
+        <td><%= link_to 'Show', voyage %></td>
+        <td><%= link_to 'Edit', edit_voyage_path(voyage) %></td>
+        <td><%= link_to 'Destroy', voyage, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Voyage', new_voyage_path %>

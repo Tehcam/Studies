@@ -1,0 +1,36 @@
+<%= nested_form_for @rayon do |form| %>
+  <% if rayon.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(rayon.errors.count, "error") %> prohibited this rayon from being saved:</h2>
+
+      <ul>
+        <% rayon.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :label %>
+    <%= form.text_field :label %>
+  </div>
+
+  <fieldset>
+    <legend>Items</legend>
+    <div id="items">
+      <div><b>Libellé</b></div>
+      <%= form.fields_for :items do |i| %>
+        <div class="fields">
+          <%= i.text_field :label %>
+          <%= i.link_to_remove 'Supprimer' %>
+        </div>
+      <% end %>
+    </div>
+    <p><%= form.link_to_add 'Ajouter un item', :items, :data => {:target => '#items'} %></p>
+  </fieldset>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

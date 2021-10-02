@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nom:</strong>
+  <%= @artiste.nom %>
+</p>
+
+<p>
+  <strong>Liste des chansons:</strong>
+  <% @artiste.chansons.each do |chanson| %>
+    <br>&nbsp;
+    <%= link_to chanson, chanson %>
+  <% end %>
+</p>
+
+<p>
+  <strong>Liste des albums:</strong>
+  <% h = [] %>
+  <% @artiste.chansons.each do |chanson| %>
+    <% if !h.include? chanson.album %>
+      <% h << chanson.album %>
+      <br>&nbsp;
+      <%= link_to chanson.album, chanson.album %>
+    <% end %>
+  <% end %>
+</p>
+
+<%= link_to 'Edit', edit_artiste_path(@artiste) %> |
+<%= link_to 'Back', artistes_path %>

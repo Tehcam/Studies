@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Label:</strong>
+  <%= @rayon.label %>
+</p>
+
+<p>
+  <strong>Items:</strong>
+  <% @rayon.items.each do |item| %>
+    <br>&nbsp;
+    <%= link_to item, item %>
+  <% end %>
+</p>
+
+<%= link_to 'Edit', edit_rayon_path(@rayon) %> |
+<%= link_to 'Back', rayons_path %>

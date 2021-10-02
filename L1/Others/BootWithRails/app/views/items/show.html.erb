@@ -1,0 +1,15 @@
+<header class="navbar bg-primary">
+  <h1 class="navbar-brand" style="color: white !important; text-transform: capitalize;">
+    <%= @item.label %>
+  </h1>
+</header>
+
+<p id="notice"><%= notice %></p>
+
+<p style="margin: 20px !important;">
+  <strong>Bought:</strong>
+  <%= @item.bought %>
+</p>
+
+<%= link_to 'Edit', edit_item_path(@item), {class: "btn btn-success"} %>
+<%= link_to 'Back', items_path, {class: "btn btn-primary"} %>

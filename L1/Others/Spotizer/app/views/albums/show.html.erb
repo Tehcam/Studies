@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Titre:</strong>
+  <%= @album.titre %>
+</p>
+
+<p>
+  <strong>Date sortie:</strong>
+  <%= @album.date_sortie %>
+</p>
+
+<p>
+  <strong>Chansons:</strong>
+  <ul>
+  <% @album.chansons.each do |chanson| %>
+    <li>
+      <%= link_to ["Artiste: ", chanson.artiste].join, chanson.artiste %>
+      <ul>
+        <li><%= link_to chanson, chanson %></li>
+      </ul>
+    </li>
+  <% end %>
+  </ul>
+</p>
+
+<%= link_to 'Edit', edit_album_path(@album) %> |
+<%= link_to 'Back', albums_path %>

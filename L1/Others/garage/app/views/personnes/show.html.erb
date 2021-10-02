@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nom:</strong>
+  <%= @personne.nom %>
+</p>
+
+<p>
+  <strong>Prenom:</strong>
+  <%= @personne.prenom %>
+</p>
+
+<p>
+  <strong>Date naissance:</strong>
+  <%= @personne.date_naissance %>
+</p>
+
+<p>
+  <strong>Voitures:</strong>
+  <% @personne.voitures.each do |voiture| %>
+    <br>&nbsp;
+    <%= link_to voiture, voiture %>
+  <% end %>
+</p>
+
+<p>
+  <strong>Voyages:</strong>
+  <% @personne.voyages.each do |voyage| %>
+    <br>&nbsp;
+    <%= link_to voyage, voyage %>
+  <% end %>
+</p>
+
+<%= link_to 'Edit', edit_personne_path(@personne) %> |
+<%= link_to 'Back', personnes_path %>

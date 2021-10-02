@@ -1,0 +1,64 @@
+{
+  "app.js": "/packs/js/app-ffe19d6c0b86f209657f.js",
+  "app.js.map": "/packs/js/app-ffe19d6c0b86f209657f.js.map",
+  "appli.js": "/packs/js/appli-ca7b28e98901ca767f78.js",
+  "appli.js.map": "/packs/js/appli-ca7b28e98901ca767f78.js.map",
+  "application.js": "/packs/js/application-aaebfaba3c065768bf44.js",
+  "application.js.map": "/packs/js/application-aaebfaba3c065768bf44.js.map",
+  "coucou.js": "/packs/js/coucou-c001bc4277b7e8e7da53.js",
+  "coucou.js.map": "/packs/js/coucou-c001bc4277b7e8e7da53.js.map",
+  "entrypoints": {
+    "app": {
+      "js": [
+        "/packs/js/app-ffe19d6c0b86f209657f.js"
+      ],
+      "js.map": [
+        "/packs/js/app-ffe19d6c0b86f209657f.js.map"
+      ]
+    },
+    "appli": {
+      "js": [
+        "/packs/js/appli-ca7b28e98901ca767f78.js"
+      ],
+      "js.map": [
+        "/packs/js/appli-ca7b28e98901ca767f78.js.map"
+      ]
+    },
+    "application": {
+      "js": [
+        "/packs/js/application-aaebfaba3c065768bf44.js"
+      ],
+      "js.map": [
+        "/packs/js/application-aaebfaba3c065768bf44.js.map"
+      ]
+    },
+    "coucou": {
+      "js": [
+        "/packs/js/coucou-c001bc4277b7e8e7da53.js"
+      ],
+      "js.map": [
+        "/packs/js/coucou-c001bc4277b7e8e7da53.js.map"
+      ]
+    },
+    "js/bootstrap_js_file": {
+      "js": [
+        "/packs/js/js/bootstrap_js_file-302b73415277472a4f66.js"
+      ],
+      "js.map": [
+        "/packs/js/js/bootstrap_js_file-302b73415277472a4f66.js.map"
+      ]
+    },
+    "nested_form": {
+      "js": [
+        "/packs/js/nested_form-2e41babb867d1642ceba.js"
+      ],
+      "js.map": [
+        "/packs/js/nested_form-2e41babb867d1642ceba.js.map"
+      ]
+    }
+  },
+  "js/bootstrap_js_file.js": "/packs/js/js/bootstrap_js_file-302b73415277472a4f66.js",
+  "js/bootstrap_js_file.js.map": "/packs/js/js/bootstrap_js_file-302b73415277472a4f66.js.map",
+  "nested_form.js": "/packs/js/nested_form-2e41babb867d1642ceba.js",
+  "nested_form.js.map": "/packs/js/nested_form-2e41babb867d1642ceba.js.map"
+}

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Label:</strong>
+  <%= @item.label %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @item.quantity %>
+</p>
+
+<p>
+  <strong>Is already bought:</strong>
+  <%= @item.is_already_bought %>
+</p>
+
+<p>
+  <strong>Rayon:</strong>
+  <%= link_to @item.rayon, @item.rayon %>
+</p>
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>
